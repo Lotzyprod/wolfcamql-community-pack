@@ -1,0 +1,52 @@
+id software:  releasing quake3 source
+ioquake3
+Luigi Auriemma:  quake live pk3 decryption
+CaNaBiS, HMage, auri, ent:  q3mme (blur code, q3mme camera code, dof code, and obviously inspiration)
+ent / entdark:  image bgr swap speedup
+Cloud Wu:  mingw backtrace (similar to or based on addr2line by Ulrich Lauther)
+The Free Type Project: libfreetype
+OpenArena:  some content
+Cyberstorm:  anim map change
+iodfe:  number pad fix
+Ben Rudiak-Gould: HuffYUV
+ffmpeg project:  HuffYUV implementation
+em92 (Eugene Molotov):
+
+  * bug fix:  invalid invulnerability sphere would appear after rewinding
+  * bug fix:  fragforward treated freeze tag thaws as kills
+  * bug fix:  freecam spec mode shows own corpse in 'Attack and Defend' / CTFS
+  * bug fix:  don't draw sprites for dead players
+  * work around for ql/minqlx bug not updating player config strings correctly
+  * bug fix:  'out of ammo' sound played when player dies
+  * bug fix:  crosshair health and armor for teammates was showing 0/0 with protocol 91 demos
+  * bug fix:  don't show crosshair scan name and info for dead players
+  * compile fix:  add -D_FILE_OFFSET_BITS=64 to all platforms
+  * include 64-bit Windows libfreetype.a
+  * bug fix:  overtime clock stayed at zero for game types besides duel, tdm, ca, and ft
+  * bug fix:  r_fullscreen 1 wouldn't fit game screen correctly (via ioquake3 patch)
+  * bug fix:  renderer shader times incorrect when recording videos
+  * bug fix:  round based games didn't ignore g_overtime value
+  * bug fix:  use correct flag sounds for cpma NTF
+  * bug fix:  loading flag models and sounds for cpma NTF gametype
+  * bug fix:  opengl2 renderer 'animmap' limit 8 instead of 2048
+  * backtrace syntax fix
+
+Cyrax (Eugene C.):  screenMap shader directive from Quake3e
+agkr234: Fixed stuttering in cg_animationsRate at low timescales
+
+zeroql:  sending me some of the stuff he was working on and motivating me to keep working on this program
+KittenIgnition:  helping others, ideas and suggestions, beta testing
+mccormic:  making movies, letting me know what features are needed/helpful for movie makers, beta testing
+Biox1dE:  suggestions and testing
+Adam Pyle:  technical information regarding quake live
+
+
+Ed Bow:  qldt
+Jonathan Young:  quakelive offline
+Maverick and quake live developers for information regarding dm90 and dm91 protocol changes
+
+Dmitry 'qrealka' Loginov:  cpma pro-sound description
+Ravensoft:  png output from Jedi Academy
+GNU Unifont:  font files
+Gian 'myT' Schellenbaum:  information regarding cpma 1.5[01] changes
+Jaco Kroon:  backtrace code

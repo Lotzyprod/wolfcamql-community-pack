@@ -1,0 +1,269 @@
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \timelimit\0\fraglimit\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\dmflags\0\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\sv_allowDownload\0\g_redTeam\Red Team\g_blueTeam\Blue Team\gamename\baseq3\g_maxGameClients\0\capturelimit\8\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667406436\wolfcamversion\12.5
+  0:00 ClientConnect: 6
+  0:00 ClientUserinfoChanged: 6 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 6 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 6 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 6
+  0:03 Item: 6 weapon_rocketlauncher
+  0:07 Item: 6 weapon_rocketlauncher
+  5:59 ShutdownGame:
+  5:59 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \capturelimit\8\g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\fraglimit\0\timelimit\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667409345\wolfcamversion\12.5
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 4
+  1:08 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  1:26 ShutdownGame:
+  1:26 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \timelimit\0\fraglimit\0\dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\capturelimit\8\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667409690\wolfcamversion\12.5
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 2
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \capturelimit\8\g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\fraglimit\0\timelimit\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667409787\wolfcamversion\12.5
+  0:00 ClientConnect: 7
+  0:00 ClientUserinfoChanged: 7 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 7 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 7 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 7
+  0:05 Item: 7 weapon_rocketlauncher
+  0:08 Item: 7 weapon_lightning
+  0:11 Item: 7 weapon_rocketlauncher
+  0:14 Item: 7 weapon_railgun
+  0:19 ShutdownGame:
+  0:19 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \capturelimit\8\g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\fraglimit\0\timelimit\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\aerowalk\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667410201\wolfcamversion\12.5
+  0:00 ClientConnect: 5
+  0:00 ClientUserinfoChanged: 5 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 5 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 5 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 5
+  1:51 ClientUserinfoChanged: 5 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  1:59 Item: 5 weapon_rocketlauncher
+  2:25 Item: 5 weapon_rocketlauncher
+  2:38 Item: 5 weapon_rocketlauncher
+  2:43 Item: 5 item_health
+  3:30 ClientUserinfoChanged: 5 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  3:46 Item: 5 weapon_rocketlauncher
+  4:00 Item: 5 weapon_railgun
+  4:15 Item: 5 item_health
+  4:23 Item: 5 weapon_rocketlauncher
+  4:33 Item: 5 weapon_rocketlauncher
+  4:35 Item: 5 item_health
+  4:59 ShutdownGame:
+  4:59 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \timelimit\0\fraglimit\0\dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\capturelimit\8\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\toxicity\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667418592\wolfcamversion\12.5
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 3
+  0:18 Item: 3 ammo_rockets
+  0:20 Item: 3 item_armor_combat
+  0:23 Item: 3 weapon_lightning
+  0:28 Item: 3 weapon_rocketlauncher
+  0:41 Item: 3 weapon_plasmagun
+  0:42 Item: 3 item_armor_body
+  0:49 Item: 3 item_armor_combat
+  0:55 Item: 3 weapon_grenadelauncher
+  1:22 Item: 3 ammo_rockets
+  1:22 Item: 3 item_health
+  1:24 Item: 3 item_armor_combat
+  1:30 Item: 3 item_armor_combat
+  1:32 Item: 3 item_armor_shard
+  1:33 Item: 3 ammo_lightning
+  1:33 Item: 3 ammo_cells
+  1:37 Item: 3 weapon_rocketlauncher
+  1:38 Item: 3 item_health_small
+  1:38 Item: 3 item_health_small
+  1:40 Item: 3 weapon_railgun
+  1:41 Item: 3 weapon_plasmagun
+  1:57 Item: 3 item_armor_combat
+  2:06 Item: 3 item_armor_combat
+  2:14 Item: 3 weapon_rocketlauncher
+  2:15 Item: 3 item_health_small
+  2:17 Item: 3 weapon_railgun
+  2:49 Item: 3 item_armor_shard
+  2:49 Item: 3 item_armor_shard
+  2:54 Item: 3 item_health_small
+  2:55 Item: 3 item_health_small
+  2:57 Item: 3 weapon_railgun
+  3:48 Item: 3 item_health
+  4:01 Item: 3 item_armor_combat
+  4:05 Item: 3 item_armor_shard
+  4:14 Item: 3 item_health_small
+  4:14 Item: 3 item_health_small
+  4:16 Item: 3 weapon_railgun
+  4:40 Item: 3 item_armor_combat
+  4:41 Item: 3 weapon_lightning
+  7:43 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 10:45 Item: 3 item_armor_shard
+ 11:05 Item: 3 weapon_grenadelauncher
+ 11:10 Item: 3 weapon_grenadelauncher
+ 11:15 Item: 3 weapon_grenadelauncher
+ 11:20 Item: 3 weapon_grenadelauncher
+ 11:25 Item: 3 weapon_grenadelauncher
+ 11:30 Item: 3 weapon_grenadelauncher
+ 11:31 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 11:36 Item: 3 weapon_grenadelauncher
+ 11:41 Item: 3 weapon_grenadelauncher
+ 12:37 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 12:40 Item: 3 weapon_grenadelauncher
+ 12:45 Item: 3 weapon_grenadelauncher
+ 12:50 Item: 3 weapon_grenadelauncher
+ 13:08 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 13:11 Item: 3 weapon_grenadelauncher
+ 13:16 Item: 3 weapon_grenadelauncher
+ 13:21 Item: 3 weapon_grenadelauncher
+ 13:26 Item: 3 weapon_grenadelauncher
+ 13:32 Item: 3 weapon_grenadelauncher
+ 13:41 Item: 3 weapon_grenadelauncher
+ 13:48 Item: 3 weapon_grenadelauncher
+ 14:04 Item: 3 weapon_grenadelauncher
+ 15:21 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 15:24 Item: 3 weapon_grenadelauncher
+ 15:29 Item: 3 weapon_grenadelauncher
+ 15:37 Item: 3 weapon_grenadelauncher
+ 15:42 Item: 3 item_armor_shard
+ 15:42 Item: 3 item_armor_shard
+ 19:13 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 19:56 Item: 3 item_armor_shard
+ 19:56 Item: 3 item_armor_shard
+ 20:05 Item: 3 weapon_plasmagun
+ 20:14 Item: 3 item_armor_combat
+ 20:49 Item: 3 item_armor_shard
+ 20:50 Item: 3 item_armor_shard
+ 21:15 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 21:20 Item: 3 item_armor_shard
+ 21:21 Item: 3 item_armor_shard
+ 22:09 Item: 3 weapon_lightning
+ 23:16 ShutdownGame:
+ 23:16 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \timelimit\0\fraglimit\0\dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\capturelimit\8\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\aerowalk\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667420250\wolfcamversion\12.5
+  0:00 ClientConnect: 3
+  0:00 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 3
+  0:22 Item: 3 weapon_rocketlauncher
+  1:30 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  2:40 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  4:11 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  4:54 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  5:35 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  6:07 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  6:15 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  6:22 Item: 3 weapon_rocketlauncher
+  6:25 Item: 3 item_health
+  6:38 Item: 3 weapon_rocketlauncher
+  6:55 Item: 3 weapon_rocketlauncher
+  7:37 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  8:39 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  8:59 Item: 3 weapon_railgun
+  9:16 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  9:39 Item: 3 ammo_rockets
+ 10:14 Item: 3 weapon_railgun
+ 10:38 Item: 3 ammo_rockets
+ 11:12 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 11:39 Item: 3 weapon_rocketlauncher
+ 12:05 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 12:20 Item: 3 weapon_rocketlauncher
+ 12:55 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 14:02 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 14:50 Item: 3 weapon_rocketlauncher
+ 15:25 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 15:47 Item: 3 ammo_shells
+ 16:56 ClientUserinfoChanged: 3 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 17:46 ShutdownGame:
+ 17:46 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \capturelimit\8\g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\fraglimit\0\timelimit\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\qztraining\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667646542\wolfcamversion\12.5
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 4
+  0:18 Item: 4 weapon_rocketlauncher
+  0:25 Item: 4 weapon_rocketlauncher
+  0:33 Item: 4 weapon_rocketlauncher
+  0:33 Kill: 4 4 7: ^wLOTZ^4Y* killed ^wLOTZ^4Y* by MOD_ROCKET_SPLASH
+  0:36 Item: 4 item_armor_combat
+  0:38 Item: 4 weapon_lightning
+  0:41 Item: 4 item_armor_shard
+  0:41 Item: 4 item_armor_shard
+  0:42 Item: 4 item_armor_shard
+  0:43 Item: 4 weapon_rocketlauncher
+  0:44 Item: 4 item_armor_body
+  0:50 Item: 4 weapon_lightning
+  1:00 Item: 4 ammo_shells
+  1:12 Item: 4 weapon_grenadelauncher
+  1:16 Item: 4 ammo_rockets
+  1:56 Item: 4 ammo_rockets
+  2:27 Item: 4 weapon_rocketlauncher
+  2:41 Item: 4 weapon_grenadelauncher
+  2:47 Item: 4 weapon_shotgun
+  2:49 Item: 4 ammo_shells
+  9:21 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  9:24 Item: 4 ammo_rockets
+ 10:11 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 11:06 Item: 4 weapon_grenadelauncher
+ 11:07 Item: 4 ammo_rockets
+ 12:07 Item: 4 weapon_lightning
+ 12:13 Item: 4 weapon_grenadelauncher
+ 12:21 Item: 4 ammo_rockets
+ 12:48 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 13:25 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 13:29 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 14:15 Item: 4 ammo_rockets
+ 15:59 Item: 4 ammo_shells
+ 16:23 Item: 4 weapon_shotgun
+ 16:34 Item: 4 weapon_shotgun
+ 17:11 Item: 4 weapon_grenadelauncher
+ 17:14 Item: 4 weapon_shotgun
+ 17:19 Item: 4 weapon_shotgun
+ 17:26 Item: 4 item_health_mega
+ 17:28 Item: 4 item_armor_combat
+ 17:35 Item: 4 weapon_grenadelauncher
+ 17:45 ShutdownGame:
+ 17:45 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \capturelimit\8\g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\fraglimit\0\timelimit\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\aerowalk\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667647789\wolfcamversion\12.5
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 4
+  1:38 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  3:17 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/sport\hmodel\doom/sport\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  4:13 Item: 4 weapon_rocketlauncher
+  4:25 Item: 4 ammo_lightning
+  4:33 Item: 4 weapon_rocketlauncher
+  4:37 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  4:47 ShutdownGame:
+  4:47 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \capturelimit\8\g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\fraglimit\0\timelimit\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\aerowalk\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667648140\wolfcamversion\12.5
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 4
+  0:17 Item: 4 ammo_shells
+  0:25 Item: 4 weapon_rocketlauncher
+  0:28 Item: 4 item_health
+  0:44 Item: 4 item_health
+  1:56 Item: 4 weapon_rocketlauncher
+  1:59 Item: 4 item_health
+  2:18 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  3:19 ShutdownGame:
+  3:19 ------------------------------------------------------------
