@@ -1,0 +1,1076 @@
+-----------------------
+1     gen : <default>
+1     gen : <stencil shadow>
+1   E gen : projectionShadow
+2   E gen : flareShader
+2   E gen : sun
+0     gen : gfx/2d/sunflare (DEFAULTED)
+1     gen : gfx/2d/sunflare
+1   E gen : gfx/2d/bigchars
+1   E gen : white
+2   E gen : wc/console
+1   E gen : menu/art/font1_prop
+1   E gen : menu/art/font1_prop_glo
+1   E gen : menu/art/font2_prop
+1   E gen : ui/assets/3_cursor3
+1     gen : menu/art/switch_on
+1     gen : menu/art/switch_off
+7   E gen : menubacknologo
+1     gen : menu/art/slider2
+1     gen : menu/art/sliderbutt_0
+1     gen : menu/art/sliderbutt_1
+1     gen : clientName0
+1     gen : clientName1
+1     gen : clientName2
+1     gen : clientName3
+1     gen : clientName4
+1     gen : clientName5
+1     gen : clientName6
+1     gen : clientName7
+1     gen : clientName8
+1     gen : clientName9
+1     gen : clientName10
+1     gen : clientName11
+1     gen : clientName12
+1     gen : clientName13
+1     gen : clientName14
+1     gen : clientName15
+1     gen : clientName16
+1     gen : clientName17
+1     gen : clientName18
+1     gen : clientName19
+1     gen : clientName20
+1     gen : clientName21
+1     gen : clientName22
+1     gen : clientName23
+1     gen : clientName24
+1     gen : clientName25
+1     gen : clientName26
+1     gen : clientName27
+1     gen : clientName28
+1     gen : clientName29
+1     gen : clientName30
+1     gen : clientName31
+1     gen : clientName32
+1     gen : clientName33
+1     gen : clientName34
+1     gen : clientName35
+1     gen : clientName36
+1     gen : clientName37
+1     gen : clientName38
+1     gen : clientName39
+1     gen : clientName40
+1     gen : clientName41
+1     gen : clientName42
+1     gen : clientName43
+1     gen : clientName44
+1     gen : clientName45
+1     gen : clientName46
+1     gen : clientName47
+1     gen : clientName48
+1     gen : clientName49
+1     gen : clientName50
+1     gen : clientName51
+1     gen : clientName52
+1     gen : clientName53
+1     gen : clientName54
+1     gen : clientName55
+1     gen : clientName56
+1     gen : clientName57
+1     gen : clientName58
+1     gen : clientName59
+1     gen : clientName60
+1     gen : clientName61
+1     gen : clientName62
+1     gen : clientName63
+1     gen : fonts2/fontimage_0_12.tga
+1     gen : fonts2/fontimage_0_16.tga
+1     gen : fonts2/fontimage_0_24.tga
+1     gen : fonts2/fontimage_1_24.tga
+1     gen : fonts2/fontimage_0_48.tga
+1     gen : fonts2/fontimage_1_48.tga
+1     gen : fonts2/fontimage_2_48.tga
+1     gen : fonts2/fontimage_3_48.tga
+1     gen : fonts2/fontimage_4_48.tga
+1     gen : fonts2/fontimage_5_48.tga
+1     gen : fonts2/bluehigd_0_28.tga
+1     gen : fonts2/bluehigd_1_28.tga
+1     gen : fonts2/handelgothic_0_24.tga
+1     gen : fonts2/handelgothic_1_24.tga
+1     gen : fonts2/handelgothic_0_120.tga
+1     gen : fonts2/handelgothic_1_120.tga
+1     gen : fonts2/handelgothic_2_120.tga
+1     gen : fonts2/handelgothic_3_120.tga
+1     gen : fonts2/handelgothic_4_120.tga
+1     gen : fonts2/handelgothic_5_120.tga
+1     gen : fonts2/handelgothic_6_120.tga
+1     gen : fonts2/handelgothic_7_120.tga
+1     gen : fonts2/handelgothic_8_120.tga
+1     gen : fonts2/handelgothic_9_120.tga
+1     gen : fonts2/handelgothic_10_120.tga
+1     gen : fonts2/handelgothic_11_120.tga
+1     gen : fonts2/handelgothic_12_120.tga
+1     gen : fonts2/handelgothic_13_120.tga
+1     gen : fonts2/handelgothic_14_120.tga
+1     gen : fonts2/handelgothic_15_120.tga
+1     gen : fonts2/handelgothic_16_120.tga
+1     gen : fonts2/handelgothic_17_120.tga
+1     gen : fonts2/handelgothic_18_120.tga
+1     gen : fonts2/handelgothic_19_120.tga
+1     gen : fonts2/handelgothic_20_120.tga
+1     gen : fonts2/handelgothic_21_120.tga
+1     gen : fonts2/handelgothic_22_120.tga
+1     gen : fonts2/handelgothic_23_120.tga
+1     gen : fonts2/handelgothic_24_120.tga
+1     gen : fonts2/handelgothic_25_120.tga
+1     gen : fonts2/handelgothic_26_120.tga
+1     gen : fonts2/handelgothic_27_120.tga
+1     gen : fonts2/handelgothic_28_120.tga
+1     gen : fonts2/handelgothic_29_120.tga
+1     gen : fonts2/handelgothic_30_120.tga
+1     gen : fonts2/handelgothic_31_120.tga
+1     gen : fonts2/notosans-regular_0_24.tga
+1     gen : fonts2/notosans-regular_1_24.tga
+1     gen : fonts2/handelgothic_0_16.tga
+1     gen : fonts2/qlfont_0_24.tga
+1     gen : fonts2/qlfont_1_24.tga
+1     gen : fonts2/TS_Bold_0_87.tga
+1     gen : fonts2/TS_Bold_1_87.tga
+1     gen : fonts2/TS_Bold_2_87.tga
+1     gen : fonts2/TS_Bold_3_87.tga
+1     gen : fonts2/TS_Bold_4_87.tga
+1     gen : fonts2/TS_Bold_5_87.tga
+1     gen : fonts2/TS_Bold_6_87.tga
+1     gen : fonts2/TS_Bold_7_87.tga
+1     gen : fonts2/TS_Bold_8_87.tga
+1     gen : fonts2/TS_Bold_9_87.tga
+1     gen : fonts2/TS_Bold_10_87.tga
+1     gen : fonts2/TS_Bold_11_87.tga
+1     gen : fonts2/TS_Bold_12_87.tga
+1     gen : fonts2/TS_Bold_13_87.tga
+1     gen : fonts2/TS_Bold_14_87.tga
+1     gen : levelshots/qztraining
+1   E gen : wc/levelShotDetail
+1   E gen : icons/iconw_gauntlet
+3   E gen : models/weapons2/gauntlet/gauntlet1
+1   E gen : models/weapons2/gauntlet/gauntlet3
+2   E gen : models/weapons2/gauntlet/gauntlet2
+1   E gen : icons/iconw_shotgun
+3   E gen : models/weapons2/shotgun/shotgun
+1   E gen : models/weapons2/shotgun/shotgun_laser
+1   E gen : models/powerups/ammo/shotammo2
+2   E gen : models/powerups/ammo/shotammo
+2   E gen : models/powerups/ammo/shotammo_new
+1   E gen : models/powerups/ammo/ammo_shotgun
+1   E gen : models/weapons2/shotgun/f_shotgun
+2   E gen : bulletExplosion
+1   E gen : icons/iconw_machinegun
+3   E gen : models/weapons2/machinegun/machinegun
+1   E gen : models/powerups/ammo/machammo2
+2   E gen : models/powerups/ammo/machammo
+2   E gen : models/powerups/ammo/machammo_new
+1   E gen : models/powerups/ammo/ammo_machinegun
+1   E gen : models/weapons2/machinegun/f_machinegun
+1   E gen : icons/iconw_grenade
+3   E gen : models/weapons2/grenadel/grenadel
+1   E gen : models/powerups/ammo/grenammo2
+2   E gen : models/powerups/ammo/grenammo
+2   E gen : models/powerups/ammo/grenammo_new
+1   E gen : models/powerups/ammo/ammo_grenade
+1   E gen : models/weapons2/grenadel/f_grenadel
+2   E gen : models/ammo/newgrenade
+4   E gen : grenadeExplosion
+1   E gen : icons/iconw_rocket
+3   E gen : models/weapons2/rocketl/rocketl
+2   E gen : models/weapons2/rocketl/rocketl2
+1   E gen : models/powerups/ammo/rockammo2
+2   E gen : models/powerups/ammo/rockammo
+2   E gen : models/powerups/ammo/rockammo_new
+1   E gen : models/powerups/ammo/ammo_rocket
+1   E gen : models/weapons2/rocketl/f_rocketl
+1   E gen : models/ammo/rocket/rockflar
+1   E gen : models/ammo/rocket/rocket
+1   E gen : models/ammo/rocket/rocketfn
+1   E gen : models/ammo/rocket/rockfls2
+4   E gen : rocketExplosion
+1   E gen : icons/iconw_lightning
+1   E gen : models/weapons2/lightning/lightning2
+2   E gen : models/weapons2/lightning/trail2
+1   E gen : models/weapons2/lightning/glass
+1   E gen : models/weapons2/lightning/button
+1   E gen : models/powerups/ammo/lighammo2
+2   E gen : models/powerups/ammo/lighammo
+2   E gen : models/powerups/ammo/lighammo_new
+1   E gen : models/powerups/ammo/ammo_lightning
+1   E gen : models/weapons2/lightning/f_lightning
+4   E gen : lightningBolt1
+2   E gen : models/weaphits/electric
+1   E gen : icons/iconw_railgun
+2   E gen : models/weapons2/railgun/railgun1
+1   E gen : models/weapons2/railgun/railgun2
+1   E gen : models/weapons2/railgun/railgun4
+2   E gen : models/weapons2/railgun/railgun3
+1   E gen : models/powerups/ammo/railammo2
+2   E gen : models/powerups/ammo/railammo
+2   E gen : models/powerups/ammo/railammo_new
+1   E gen : models/powerups/ammo/ammo_railgun
+1   E gen : models/weapons2/railgun/f_railgun2
+2   E gen : railExplosion
+1   E gen : railDisc
+2   E gen : railCore
+1   E gen : icons/iconw_plasma
+2   E gen : models/weapons2/plasma/plasma
+2   E gen : models/weapons2/plasma/plasma_glo
+1   E gen : models/weapons2/plasma/plasma_glass
+1   E gen : models/powerups/ammo/plasammo2
+2   E gen : models/powerups/ammo/plasammo
+2   E gen : models/powerups/ammo/plasammo_new
+1   E gen : models/powerups/ammo/ammo_plasma
+1   E gen : models/weapons2/plasma/f_plasma
+1   E gen : plasmaExplosion
+1   E gen : icons/iconw_bfg
+3   E gen : models/weapons2/bfg/bfg
+3   E gen : models/weapons2/bfg/bfg_e
+1   E gen : models/powerups/ammo/bfgammo2
+3   E gen : models/powerups/ammo/bfgammo
+2   E gen : models/powerups/ammo/bfgammo_new
+1   E gen : models/powerups/ammo/ammo_bfg
+2   E gen : models/weapons2/bfg/f_bfg
+2   E gen : models/weapons2/bfg/bfg_k
+4   E gen : bfgExplosion
+4   E gen : models/weaphits/spherefx2
+2   E gen : models/weaphits/spherefx
+2   E gen : models/weaphits/sphere
+2   E gen : models/weaphits/bfgfx
+1   E gen : icons/iconw_grapple
+3   E gen : models/weapons2/grapple/grapple_j
+4   E gen : models/weapons2/grapple/grapple
+1   E gen : models/weapons2/grapple/f_grapple
+1   E gen : models/weapons2/grapple/grapple_h
+1   E gen : icons/iconw_nailgun
+2   E gen : models/weapons/nailgun/nailgun
+1   E gen : models/powerups/ammo/nailgammo2
+2   E gen : models/powerups/ammo/nailgammo
+2   E gen : models/powerups/ammo/nailammo_new
+1   E gen : models/powerups/ammo/ammo_nailgun
+1   E gen : models/weapons/nailgun/f_nailgun
+1     gen : models/weaphits/nailtexture
+1   E gen : icons/iconw_proxlauncher
+2   E gen : models/weapons/proxmine/proxmine1
+2   E gen : models/weapons/proxmine/proxmine2
+2   E gen : models/weaphits/proxmine
+3   E gen : models/weapons/proxmine/proxmine3
+1   E gen : models/powerups/ammo/proxammo2
+2   E gen : models/powerups/ammo/proxammo
+2   E gen : models/powerups/ammo/proxammo_new
+1   E gen : models/powerups/ammo/ammo_proxmine
+1   E gen : models/weapons/proxmine/f_proxmine
+2   E gen : models/weaphits/proxmine2
+1   E gen : icons/iconw_chaingun
+3   E gen : models/weapons/vulcan/vulcan
+1   E gen : models/powerups/ammo/chaingammo2
+2   E gen : models/powerups/ammo/chaingammo
+2   E gen : models/powerups/ammo/chainammo_new
+1   E gen : models/powerups/ammo/ammo_chaingun
+1   E gen : models/weapons/vulcan/f_vulcan
+1   E gen : icons/weap_hmg
+2   E gen : models/weapons3/hmg/hmg
+1   E gen : models/powerups/ammo/hmgammo2
+2   E gen : models/powerups/ammo/hmgammo
+2   E gen : models/powerups/ammo/hmgammo_new
+1   E gen : models/powerups/ammo/ammo_hmg
+1   E gen : models/weapons3/hmg/f_hmg
+0   E gen : textures/sfx/xfinalfog
+2 L E gen : textures/base_trim/pewter_shiney
+1   E gen : textures/base_light/light5_green
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+1 L   gen : textures/proto2/asylum2a
+4 L E gen : textures/base_floor/hfloor3
+4 L E gen : textures/base_floor/hfloor3
+1 L   gen : textures/base_trim/pewter
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_trim/pewter_shiney
+1 L   gen : textures/base_wall/cobalt_red
+4 L E gen : textures/base_light/proto_light_2k
+2 L E gen : textures/base_wall/chrome_metal
+1   E gen : textures/sfx/beam
+1 L   gen : textures/base_wall/concrete
+1 L E gen : textures/proto2/rail01
+1 L   gen : textures/base_wall/concrete
+2 L E gen : textures/base_trim/pewter_shiney
+1 L   gen : textures/base_floor/proto_grill
+1 L   gen : textures/base_floor/proto_grill
+1 L   gen : textures/base_wall/cobalt_bottom
+2 L E gen : textures/gothic_trim/zinc_shiny
+1 L   gen : textures/base_wall/cobalt_gray
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+1 L   gen : textures/base_trim/dirty_pewter_big
+1 L   gen : textures/base_trim/dirty_pewter_big
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/tin_floor05big
+1   E gen : textures/sfx/beam_waterlight2
+4 L E gen : textures/base_light/proto_light_2k
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+2 L E gen : textures/base_trim/pewter_shiney_nonsolid
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+2 L E gen : textures/base_trim/pewter_shiney_nonsolid
+1   E gen : textures/base_light/light5_1k_ns
+1 L   gen : textures/base_trim/dirty_pewter_big
+1 L   gen : textures/base_trim/dirty_pewter_big
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+1 L E gen : textures/sfx/fan_grate
+4 L E gen : textures/sfx/ntrl_techfloor_kc
+2 L E gen : textures/base_wall/cobaltborder_chrome
+1   E gen : textures/base_light/light5_1k
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/proto2/tin_floor05big
+2 L E gen : textures/base_wall/chrome_metal
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_wall/cobalt_gray
+2 L E gen : textures/base_wall/cobaltborder_chrome
+1 L   gen : textures/proto2/dangertrim
+1 L   gen : textures/base_trim/border11
+2 L E gen : textures/base_wall/cobalt_chrome
+1 L   gen : textures/base_trim/border11
+2 L E gen : textures/base_light/ceil1_34_1k
+1 L   gen : textures/proto2/tin_floor04ach
+1 L   gen : textures/base_trim/slots1_1
+2 L E gen : textures/base_wall/patch10shiny
+1 L   gen : textures/base_trim/slots1_1
+1 L   gen : textures/base_trim/slots1_1
+2 L E gen : textures/base_wall/patch10shiny
+1 L   gen : textures/base_trim/slots1_1
+1   E gen : textures/ql/d_walk
+1   E gen : textures/ql/telex
+2 L E gen : textures/ql/doomred
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+2 L E gen : textures/base_wall/little_spooky
+1   E gen : textures/ql/enter
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+1   E gen : textures/ql/t4
+1   E gen : textures/ql/t3
+1   E gen : textures/ql/t2
+1   E gen : textures/ql/t1
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+1 L   gen : textures/proto2/asylum2a
+1 L   gen : textures/base_trim/wire02a_f
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_floor/skylight_spec
+1 L   gen : textures/base_trim/basemetalsupport
+1 L   gen : textures/base_trim/basemetalsupport
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+1   E gen : textures/ql/d_rj2
+1 L   gen : textures/base_trim/dirty_pewter_big
+2 L E gen : textures/base_wall/bluemetalsupport2d_1
+2 L E gen : textures/base_wall/bluemetalsupport2c_1
+1 L   gen : textures/proto2/dangertrim
+1 L   gen : textures/proto2/tin_floor04ach
+1 L   gen : textures/proto2/dangertrim
+1 L   gen : textures/proto2/tin_floor04ach
+1 L E gen : textures/base_trim/wires02
+1   E gen : textures/ql/d_speed3
+1   E gen : textures/ql/d_speed2
+1   E gen : textures/ql/d_speed1
+1   E gen : textures/ql/d_rj1
+1   E gen : textures/ql/d_jump3
+1   E gen : textures/ql/d_jump2
+1   E gen : textures/ql/d_jump1
+1   E gen : textures/ql/start
+6 L E gen : textures/base_wall2/jumppad_ntrl_kc
+1 L   gen : textures/proto2/dangertrim
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/dangertrim
+2 L E gen : textures/base_wall/chrome_metal
+2 L E gen : textures/base_wall/cobalt_chrome
+1 L   gen : textures/base_trim/basemetalsupport
+1 L   gen : textures/proto2/tin_floor04ach
+1 L   gen : textures/base_trim/border11
+1   E gen : models/mapobjects/spotlamp/spotlamp
+1   E gen : models/mapobjects/spotlamp/spotlamp_l
+1   E gen : models/mapobjects/spotlamp/beam
+1 L   gen : textures/base_wall/cobalt_gray_doom
+1 L   gen : textures/gothic_trim/zinc
+1 L   gen : textures/base_wall/concreteb2
+1 L   gen : textures/base_trim/border11b
+1 L   gen : textures/base_trim/border11b
+1 L   gen : textures/base_trim/border11b
+1 L   gen : textures/base_trim/border11b
+1 L   gen : textures/base_floor/clang_floor3bstairtop
+1 L   gen : textures/base_floor/clanggrate
+1 L   gen : textures/base_floor/clanggrate
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_wall/concrete_dark
+1 L   gen : textures/base_trim/zebra
+1 L   gen : textures/base_wall/cobalt_4
+1 L   gen : textures/base_wall/cobalt_4
+1 L   gen : textures/base_wall/cobalt_3
+1 L   gen : textures/base_wall/cobalt_3
+1 L   gen : textures/base_wall/cobalt_2
+1 L   gen : textures/base_wall/cobalt_2
+1 L   gen : textures/base_wall/cobalt_1
+1 L   gen : textures/base_wall/cobalt_1
+1 L   gen : textures/base_wall/cobalt_red
+1 L   gen : textures/base_wall/cobalt_red
+1 L   gen : textures/base_wall/cobalt_red
+1 L   gen : textures/proto2/asylum2a
+1 L   gen : textures/proto2/asylum2a
+1 L   gen : textures/proto2/asylum2a
+1 L   gen : textures/proto2/asylum2a
+1 L   gen : textures/proto2/asylum2a
+1 L   gen : textures/proto2/asylum2a
+1 L   gen : textures/proto2/tin_floor03step
+1 L   gen : textures/base_wall/concrete
+1 L   gen : textures/base_wall/concrete
+1 L   gen : textures/base_wall/concrete
+1 L   gen : textures/base_wall/concrete
+1 L   gen : textures/base_wall/concrete
+1 L   gen : textures/base_wall/concrete
+1 L   gen : textures/base_floor/proto_grill
+1 L   gen : textures/base_floor/proto_grill
+1 L   gen : textures/base_wall/cobalt_gray
+1 L   gen : textures/base_wall/cobalt_gray
+1 L   gen : textures/base_wall/cobalt_gray
+1 L   gen : textures/base_wall/cobalt_gray
+1 L   gen : textures/base_wall/cobalt_gray
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_wall/cobalt_bottom
+1 L   gen : textures/base_trim/basemetalsupport
+1 L   gen : textures/base_trim/border11
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+1 L   gen : textures/base_wall/cobalt_gray_dirty
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/proto2/tin_floor05big
+1 L   gen : textures/base_trim/wire02_f1
+1 L   gen : textures/base_trim/pewter
+1 L   gen : textures/base_trim/pewter
+1 L   gen : textures/base_trim/pewter
+1 L   gen : textures/base_trim/pewter
+1 L   gen : textures/base_trim/pewter
+1 L   gen : textures/base_trim/pewter
+2   E sky : textures/skies/q3dm0
+0   E gen : textures/sfx/xfinalfog
+1   E gen : textures/sfx/pureblack
+1 L E gen : textures/sfx/fan
+2 L E gen : textures/sfx/wall_jump
+3 L E gen : textures/ql/sensor
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+2 L E gen : textures/gothic_trim/zinc_shiny
+4 L E gen : textures/base_wall/q3tourneyscreen
+2 L E gen : textures/base_wall/patch10shiny
+2 L E gen : textures/base_wall/patch10shiny
+2 L E gen : textures/base_wall/patch10shiny
+2 L E gen : textures/base_wall/patch10shiny
+2 L E gen : textures/base_wall/chrome_metal
+2 L E gen : textures/base_wall/chrome_metal
+2 L E gen : textures/base_wall/chrome_metal
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+2 L E gen : textures/base_wall/bluemetalsupport2e_rusty
+2 L E gen : textures/base_wall/bluemetalsupport2d_1
+2 L E gen : textures/base_wall/bluemetalsupport2d_1
+2 L E gen : textures/base_wall/bluemetalsupport2d_1
+2 L E gen : textures/base_wall/bluemetalsupport2d_1
+3 L E gen : textures/base_wall/bluemetalsupport2clight
+2 L E gen : textures/base_wall/bluemetalsupport2c_1vent
+2 L E gen : textures/base_wall/bluemetal2_shiny
+2 L E gen : textures/base_wall/bluemetal2_shiny
+2 L E gen : textures/base_wall/bluemetal2_shiny
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobaltborder_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_wall/cobalt_chrome
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_trim/pewter_shiney
+2 L E gen : textures/base_trim/pewter_shiney
+1 L E gen : textures/base_support/x_support2
+1 L E gen : textures/base_support/metal_support2
+2 L E gen : textures/base_light/wsupprt1_12
+2 L E gen : textures/base_light/proto_lightred2
+2 L E gen : textures/base_light/proto_lightred2
+2 L E gen : textures/base_light/ceil1_34_1k
+4 L E gen : textures/base_floor/hfloor3
+4 L E gen : textures/proto2/ql_logo
+4   E gen : textures/sfx/portal_training
+2 L E gen : textures/ad_content/2x1
+1   E gen : textures/sfx2/redgoal2
+1 L E gen : textures/ql/sensor_red
+1   E gen : gfx/2d/numbers/zero_32b
+1   E gen : gfx/2d/numbers/one_32b
+1   E gen : gfx/2d/numbers/two_32b
+1   E gen : gfx/2d/numbers/three_32b
+1   E gen : gfx/2d/numbers/four_32b
+1   E gen : gfx/2d/numbers/five_32b
+1   E gen : gfx/2d/numbers/six_32b
+1   E gen : gfx/2d/numbers/seven_32b
+1   E gen : gfx/2d/numbers/eight_32b
+1   E gen : gfx/2d/numbers/nine_32b
+1   E gen : gfx/2d/numbers/minus_32b
+1     gen : menu/art/skill1
+1     gen : menu/art/skill2
+1     gen : menu/art/skill3
+1     gen : menu/art/skill4
+1     gen : menu/art/skill5
+1   E gen : viewDamageBlend
+1     gen : gfx/2d/defer
+1   E gen : gfx/2d/unavailable
+1   E gen : scoreboardName
+1   E gen : scoreboardPing
+1   E gen : scoreboardScore
+1   E gen : scoreboardTime
+1   E gen : smokePuff
+1   E gen : smokePuffRagePro
+1   E gen : shotgunSmokePuff
+1   E gen : nailtrail
+2   E gen : models/weaphits/proxminet
+2   E gen : models/weaphits/proxmine2t
+1   E gen : sprites/plasma1
+0     gen : q3bloodTrail (DEFAULTED)
+0     gen : dlc_bloodTrail (DEFAULTED)
+1   E gen : lagometer
+1   E gen : disconnected
+1   E gen : waterBubble
+1   E gen : gfx/misc/tracer
+1   E gen : gfx/2d/select
+1   E gen : gfx/2d/crosshair1
+1   E gen : gfx/2d/crosshair2
+1   E gen : gfx/2d/crosshair3
+1   E gen : gfx/2d/crosshair4
+1   E gen : gfx/2d/crosshair5
+1   E gen : gfx/2d/crosshair6
+1   E gen : gfx/2d/crosshair7
+1   E gen : gfx/2d/crosshair8
+1   E gen : gfx/2d/crosshair9
+1   E gen : gfx/2d/crosshair10
+1   E gen : gfx/2d/crosshair11
+1   E gen : gfx/2d/crosshair12
+1   E gen : gfx/2d/crosshair13
+1   E gen : gfx/2d/crosshair14
+1   E gen : gfx/2d/crosshair15
+1   E gen : gfx/2d/crosshair16
+1   E gen : gfx/2d/crosshair17
+1   E gen : gfx/2d/crosshair18
+1   E gen : gfx/2d/crosshair19
+1   E gen : gfx/2d/crosshair20
+1   E gen : gfx/2d/crosshair21
+1   E gen : gfx/2d/crosshair22
+1   E gen : gfx/2d/crosshair23
+1   E gen : gfx/2d/crosshair24
+1   E gen : gfx/2d/crosshair25
+1   E gen : gfx/2d/crosshair26
+1   E gen : gfx/2d/crosshair27
+1   E gen : gfx/2d/crosshair28
+1   E gen : gfx/2d/crosshair29
+1     gen : gfx/2d/backtile
+1     gen : icons/noammo
+1   E gen : wc/wallhack
+3   E gen : powerups/quad
+3   E gen : powerups/quadWeapon
+4   E gen : powerups/battleSuit
+4   E gen : powerups/battleWeapon
+1   E gen : powerups/spawnarmor
+1   E gen : powerups/spawnarmor2
+1   E gen : powerups/goo
+1   E gen : powerups/invisibility
+1   E gen : powerups/regen
+1   E gen : hasteSmokePuff
+1   E gen : icons/skull_red
+1   E gen : icons/skull_blue
+1   E gen : wc/worldDeath
+1   E gen : icons/icon_frag
+1     gen : gfx/2d/flag_status/red_flag_at_base
+1     gen : gfx/2d/flag_status/red_flag_taken
+1     gen : gfx/2d/flag_status/red_flag_dropped
+1     gen : gfx/2d/flag_status/blue_flag_at_base
+1     gen : gfx/2d/flag_status/blue_flag_taken
+1     gen : gfx/2d/flag_status/blue_flag_dropped
+1     gen : gfx/2d/flag_status/flag_at_base
+1     gen : gfx/2d/flag_status/flag_taken
+1     gen : gfx/2d/flag_status/flag_stolen
+1     gen : gfx/2d/flag_status/flag_dropped
+0     gen : gfx/wc/flag_dropped_arrow (DEFAULTED)
+2   E gen : gfx/2d/har/poi_capture
+2   E gen : gfx/2d/ad/poi_attack
+2   E gen : gfx/2d/ad/poi_capture
+2   E gen : gfx/2d/ad/poi_defend
+2   E gen : models/weaphits/kamikred
+1     gen : gfx/2d/colorbar
+1   E gen : wc/foe
+1   E gen : wc/self
+1   E gen : wc/selfEnemy
+1   E gen : wc/selfDemoTaker
+1   E gen : wc/selfDemoTakerEnemy
+1   E gen : gfx/2d/infected/bite
+1   E gen : models/powerups/armor/newyellowarmor
+1   E gen : icons/iconr_yellow
+1   E gen : icons/iconr_red
+1   E gen : icons/iconr_green
+1   E gen : icons/iconh_mega
+1   E gen : icons/quad
+1   E gen : icons/envirosuit
+1     gen : models/weapons2/shells/m_shell
+1     gen : models/weapons2/shells/s_shell
+1   E gen : models/gibs/gibs
+1   E gen : gibspark
+1   E gen : sprites/balloon3
+0     gen : q3bloodExplosion (DEFAULTED)
+0     gen : dlc_bloodExplosion (DEFAULTED)
+1   E gen : wc/bloodExplosionAlt
+1   E gen : models/weaphits/bullet1
+1     gen : models/weaphits/ring01_1
+1     gen : models/weaphits/newexplo1
+2   E gen : models/powerups/pop2
+1   E gen : models/powerups/pop
+4   E gen : deathEffect
+4   E gen : models/weaphits/kamik01
+2   E gen : models/weaphits/kam03
+2   E gen : models/weaphits/kamiwave01
+1   E gen : models/weaphits/kamiwave02
+1   E gen : models/powerups/kamikazi1
+1   E gen : models/powerups/kamikazi2
+1   E gen : models/powerups/kamikazi_f
+1   E gen : models/powerups/kamitrail
+1   E gen : models/powerups/guard2
+1   E gen : models/powerups/scout2
+1   E gen : models/powerups/doubler2
+1   E gen : models/powerups/ammo2
+2   E gen : models/powerups/shield/shield2
+2   E gen : models/powerups/regen1
+1     gen : ui/assets/statusbar/selectedhealth
+1   E gen : models/powerups/shield/shield
+1   E gen : medal_impressive
+1   E gen : medal_excellent
+1   E gen : medal_gauntlet
+1   E gen : medal_defense
+1   E gen : medal_assist
+1   E gen : medal_capture
+1   E gen : icons/headshot
+1   E gen : medal_combokill
+1   E gen : medal_firstfrag
+1   E gen : medal_accuracy
+1   E gen : medal_perfect
+1   E gen : medal_perforated
+1   E gen : medal_quadgod
+1   E gen : medal_rampage
+1   E gen : medal_revenge
+1   E gen : medal_headshot
+1   E gen : medal_midair
+1   E gen : medal_timing
+1   E gen : medal_damage
+1   E gen : adbox1x1
+1   E gen : adbox2x1
+1   E gen : adbox2x1_trans
+1   E gen : adbox4x1
+1   E gen : adbox8x1
+1   E gen : adboxblack
+1   E gen : ui/assets/score/ca_score_red
+1   E gen : ui/assets/score/ca_score_blu
+1   E gen : icons/iconr_shard
+2   E gen : models/powerups/armor/shard2new
+1   E gen : models/powerups/armor/energy_grn1
+1     gen : models/powerups/armor/shard_sphere
+2   E gen : models/powerups/armor/newredarmor
+2   E gen : models/powerups/armor/newgreen
+1   E gen : models/powerups/armor/newgreenarmor
+1   E gen : icons/iconh_green
+2   E gen : models/powerups/health/hp_small
+1   E gen : models/powerups/health/sphere_green
+1   E gen : icons/iconh_yellow
+2   E gen : models/powerups/health/hp_med
+1   E gen : models/powerups/health/sphere
+1   E gen : icons/iconh_red
+2   E gen : models/powerups/health/hp_large
+1   E gen : models/powerups/health/sphere_orange
+2   E gen : models/powerups/health/hp_mega
+1   E gen : models/powerups/health/sphere_blue
+1   E gen : models/powerups/health/blue_ring
+1   E gen : icons/icona_shotgun
+1   E gen : icons/icona_machinegun
+1   E gen : icons/icona_grenade
+1   E gen : icons/icona_plasma
+1   E gen : icons/icona_lightning
+1   E gen : icons/icona_rocket
+1   E gen : icons/icona_railgun
+1   E gen : icons/icona_bfg
+1   E gen : models/powerups/holdable/teleport_base
+1   E gen : models/powerups/holdable/teleport_sphere
+1   E gen : models/powerups/holdable/teleport_fluid
+1   E gen : icons/teleporter
+1   E gen : models/powerups/holdable/medkit_slime
+1   E gen : models/powerups/holdable/medkit_plunger
+1   E gen : models/powerups/holdable/medkit_base
+1   E gen : icons/medkit
+4   E gen : models/powerups/instant/quad
+1   E gen : models/powerups/instant/enviro
+1   E gen : models/powerups/instant/haste
+1   E gen : icons/haste
+1   E gen : models/powerups/instant/invis
+1   E gen : icons/invis
+1   E gen : models/powerups/instant/regen
+1   E gen : icons/regen
+1   E gen : models/powerups/instant/flight
+1   E gen : icons/flight
+1   E gen : models/flags/skull
+1   E gen : models/flags/flagbits
+1   E gen : models/flags/pole
+4   E gen : models/flags/r_flag2
+3   E gen : models/flag3/r_flag3
+4   E gen : models/flags/b_flag2
+3   E gen : models/flag3/b_flag3
+1   E gen : icons/kamikaze
+0     gen : icons/portal (DEFAULTED)
+1   E gen : models/powerups/shield_3
+1   E gen : models/powerups/shield_1
+1   E gen : models/powerups/shield_2
+1   E gen : icons/invulnerability
+1   E gen : icons/icona_nailgun
+1   E gen : icons/icona_proxlauncher
+1   E gen : icons/icona_chaingun
+1   E gen : models/powerups/scout1
+1   E gen : icons/scout
+1   E gen : models/powerups/guard1
+1   E gen : icons/guard
+1   E gen : models/powerups/doubler1
+1   E gen : icons/doubler
+1   E gen : models/powerups/ammo1
+1   E gen : icons/armor_regen
+4   E gen : models/flags/n_flag2
+3   E gen : models/flag3/n_flag3
+2   E gen : models/powerups/orb/red
+1     gen : icons/iconh_rorb
+2   E gen : models/powerups/orb/blue
+1     gen : icons/iconh_borb
+0     gen : icons/spawnarmor (DEFAULTED)
+1   E gen : icons/ammo_hmg
+1   E gen : models/powerups/ammo/ammopack2
+2   E gen : models/powerups/ammo/ammopack
+2   E gen : models/powerups/ammo/packammo_new
+1   E gen : models/powerups/ammo/ammo_pack
+1   E gen : icons/ammo_pack
+1   E gen : models/powerups/keys/key_silver_snake
+4   E gen : models/powerups/keys/key_silver
+1   E gen : icons/key_silver
+4   E gen : models/powerups/keys/key_gold
+1   E gen : models/powerups/keys/key_gold_snake
+1   E gen : icons/key_gold
+0     gen : icons/key_master (DEFAULTED)
+1   E gen : gfx/damage/bullet_mrk
+1   E gen : gfx/damage/burn_med_mrk
+1   E gen : gfx/damage/hole_lg_mrk
+1   E gen : gfx/damage/plasma_mrk
+1   E gen : markShadow
+2   E gen : wake
+0     gen : q3bloodMark (DEFAULTED)
+0     gen : dlc_bloodMark (DEFAULTED)
+1     gen : ui/assets/statusbar/patrol
+1     gen : ui/assets/statusbar/assault
+1     gen : ui/assets/statusbar/camp
+1     gen : ui/assets/statusbar/follow
+1     gen : ui/assets/statusbar/defend
+1     gen : ui/assets/statusbar/team_leader
+1     gen : ui/assets/statusbar/retrieve
+1     gen : ui/assets/statusbar/escort
+1     gen : menu/art/3_cursor2
+1     gen : ui/assets/sizecursor
+1   E gen : pickup_RA
+1   E gen : pickup_YA
+1   E gen : pickup_GA
+1   E gen : pickup_MH
+1   E gen : pickup_MK
+1   E gen : pickup_REDFLAG
+1   E gen : pickup_BLUEFLAG
+1   E gen : pickup_NTRLFLAG
+1   E gen : pickup_QUAD
+1   E gen : pickup_BS
+1   E gen : pickup_REGEN
+1   E gen : pickup_HASTE
+1   E gen : pickup_INVIS
+1   E gen : ghostWeaponShader
+1   E gen : noPlayerClipShader
+1   E gen : wc/wcrocketaim
+1   E gen : bbox
+1   E gen : bbox_nocull
+1   E gen : ui/assets/hud/ffa
+1   E gen : ui/assets/hud/duel
+1   E gen : ui/assets/hud/tdm
+1   E gen : ui/assets/hud/ca
+1   E gen : ui/assets/hud/ctf
+1   E gen : ui/assets/hud/ft
+1   E gen : ui/assets/hud/1f
+1   E gen : ui/assets/hud/har
+1   E gen : ui/assets/hud/dom
+1   E gen : ui/assets/hud/ad
+1   E gen : ui/assets/hud/rr
+1   E gen : ui/assets/hud/race
+0     gen : wc/hud/ntf (DEFAULTED)
+0     gen : wc/hud/sp (DEFAULTED)
+1   E gen : icons/infinite
+1     gen : gfx/wc/premium_icon
+1   E gen : wc/defragItemShader
+1   E gen : ui/assets/hud/weaplit2
+1   E gen : sprites/flagcarrier
+1   E gen : sprites/neutralflagcarrier
+1   E gen : sprites/flagcarrier_hit
+1   E gen : gfx/2d/timer/slice5
+1   E gen : gfx/2d/timer/slice5_current
+1   E gen : gfx/2d/timer/slice7
+1   E gen : gfx/2d/timer/slice7_current
+1   E gen : gfx/2d/timer/slice12
+1   E gen : gfx/2d/timer/slice12_current
+1   E gen : gfx/2d/timer/slice24
+1   E gen : gfx/2d/timer/slice24_current
+1   E gen : wc/slice5
+1   E gen : wc/slice5Current
+1   E gen : gfx/2d/powerup/incoming
+1   E gen : gfx/2d/powerup/regen
+1   E gen : gfx/2d/powerup/quad
+1   E gen : gfx/2d/powerup/invis
+1   E gen : gfx/2d/powerup/haste
+1   E gen : gfx/2d/powerup/bs
+1   E gen : mme_additiveWhite
+1   E gen : wc/keyPressForward
+1   E gen : wc/keyPressBack
+1   E gen : wc/keyPressRight
+1   E gen : wc/keyPressLeft
+1   E gen : wc/keyPressMisc
+1   E gen : explode11
+1   E gen : explode12
+1   E gen : explode13
+1   E gen : explode14
+1   E gen : explode15
+1   E gen : explode16
+1   E gen : explode17
+1   E gen : explode18
+1   E gen : explode19
+1   E gen : explode110
+1   E gen : explode111
+1   E gen : explode112
+1   E gen : explode113
+1   E gen : explode114
+1   E gen : explode115
+1   E gen : explode116
+1   E gen : explode117
+1   E gen : explode118
+1   E gen : explode119
+1   E gen : explode120
+1   E gen : explode121
+1   E gen : explode122
+1   E gen : explode123
+0     gen : models/players/bones/icon_xray (DEFAULTED)
+0     gen : models/players/characters/bones/icon_xray (DEFAULTED)
+1     gen : models/players/bones/icon_default
+2   E gen : models/players/bones/xray
+1     gen : ui/assets/gradientbar2
+1     gen : menu/art/fx_base
+1     gen : menu/art/fx_red
+1     gen : menu/art/fx_yel
+1     gen : menu/art/fx_grn
+1     gen : menu/art/fx_teal
+1     gen : menu/art/fx_blue
+1     gen : menu/art/fx_cyan
+1     gen : menu/art/fx_white
+1     gen : ui/assets/scrollbar
+1     gen : ui/assets/scrollbar_arrow_dwn_a
+1     gen : ui/assets/scrollbar_arrow_up_a
+1     gen : ui/assets/scrollbar_arrow_left
+1     gen : ui/assets/scrollbar_arrow_right
+1     gen : ui/assets/scrollbar_thumb
+1     gen : ui/assets/slider2
+1     gen : ui/assets/sliderbutt_1
+1 L E gen : textures/ctf2/redteam01
+0 L   gen : team_icon/Red Team_red (DEFAULTED)
+1 L E gen : textures/ctf2/redteam02
+1 L E gen : textures/ctf2/blueteam01
+0 L   gen : team_icon/Blue Team_blue (DEFAULTED)
+1 L E gen : textures/ctf2/blueteam02
+1     gen : ui/assets/main_menu/header
+1     gen : ui/assets/main_menu/ql_logo
+1     gen : ui/assets/main_menu/content_background
+1     gen : ui/assets/main_menu/hmg
+1     gen : ui/assets/main_menu/sg
+1     gen : ui/assets/main_menu/pg
+1     gen : ui/assets/main_menu/rl
+1     gen : ui/assets/main_menu/lg
+1     gen : ui/assets/main_menu/rg
+1     gen : ui/assets/score/frametl
+1     gen : ui/assets/score/framet
+1     gen : ui/assets/score/frametr
+1     gen : ui/assets/score/framel
+1     gen : ui/assets/score/framem
+1     gen : ui/assets/score/framer
+1     gen : ui/assets/score/framebl
+1     gen : ui/assets/score/frameb
+1     gen : ui/assets/score/framebr
+1   E gen : ui/assets/score/arrow
+1     gen : ui/assets/score/adtl
+1     gen : ui/assets/score/adtm
+1     gen : ui/assets/score/adtr
+1     gen : ui/assets/score/adbr
+1     gen : ui/assets/score/scoretl_red
+1     gen : ui/assets/score/scoretl2_red
+1     gen : ui/assets/score/scoretm
+1     gen : ui/assets/score/scoretr
+1     gen : ui/assets/score/scorel
+1     gen : ui/assets/score/scorem
+1     gen : ui/assets/score/scorer
+1     gen : ui/assets/score/scorebl
+1     gen : ui/assets/score/scoreb
+1     gen : ui/assets/score/scorebr
+1     gen : ui/assets/score/scoretl_blue
+1     gen : ui/assets/score/scoretl2_blue
+1     gen : ui/assets/score/specl
+1     gen : ui/assets/score/specm
+1     gen : ui/assets/score/specr
+1     gen : ui/assets/score/statsl
+1     gen : ui/assets/score/statsm
+1     gen : ui/assets/score/statsr
+1     gen : ui/assets/score/statsfilll
+1     gen : ui/assets/score/statsfillm
+1     gen : ui/assets/score/statsfillr
+1     gen : textures/ad_content/ad2x1
+1     gen : ui/assets/medal_capture
+1     gen : ui/assets/medal_assist
+1     gen : ui/assets/medal_defend
+1     gen : ui/assets/medal_excellent
+1     gen : ui/assets/medal_gauntlet
+1     gen : ui/assets/medal_impressive
+1     gen : ui/assets/hud/chatl
+1     gen : ui/assets/hud/chatm
+1     gen : ui/assets/hud/chatr
+1     gen : icons/icon_time
+1     gen : ui/assets/score/scoretl
+1     gen : ui/assets/score/scoretl2
+6   E gen : ui/assets/score/bgfill_blue
+6   E gen : ui/assets/score/bgfill_red
+1     gen : ui/assets/score/logo2
+1     gen : ui/assets/score/flagr
+1     gen : ui/assets/score/flagb
+1     gen : ui/assets/score/gtbox
+1     gen : ui/assets/score/frame_left
+1     gen : ui/assets/score/frame_mid
+1     gen : ui/assets/score/frame_right
+1     gen : ui/assets/score/frame_bl
+1     gen : ui/assets/score/frame_bottom
+1     gen : ui/assets/score/frame_br
+1     gen : ui/assets/score/votecast_backlit
+1     gen : ui/assets/score/bg_tabmenu
+5   E gen : ui/assets/score/bgfill
+1     gen : fonts2/font_0_24.tga
+1     gen : fonts2/font_1_24.tga
+1     gen : fonts2/smallfont_0_16.tga
+1     gen : fonts2/bigfont_0_48.tga
+1     gen : fonts2/bigfont_1_48.tga
+1     gen : fonts2/bigfont_2_48.tga
+1     gen : fonts2/bigfont_3_48.tga
+1     gen : fonts2/bigfont_4_48.tga
+1     gen : fonts2/bigfont_5_48.tga
+1     gen : textures/ad_content/ad4x1
+1     gen : sprites/foe2
+1     gen : sprites/balloon4
+1     gen : ui/assets/hud/scoreboxl
+1     gen : ui/assets/hud/scoreboxm
+1     gen : ui/assets/hud/scoreboxr
+1     gen : ui/assets/hud/teamonl
+1     gen : ui/assets/hud/teamonm
+1     gen : ui/assets/hud/teamonr
+1   E gen : ui/assets/hud/rteambgl
+1   E gen : ui/assets/hud/rteambgr
+1     gen : ui/assets/score/dom_score_red
+1   E gen : ui/assets/hud/bteambgl
+1   E gen : ui/assets/hud/bteambgr
+1     gen : ui/assets/score/dom_score_blu
+1     gen : ui/assets/score/scoretl3
+1     gen : ui/assets/score/scoretm3
+1     gen : ui/assets/score/scoretr3
+1   E gen : ui/assets/hud/healthalert
+1     gen : ui/assets/hud/health
+1     gen : ui/assets/hud/armor
+1     gen : ui/assets/hud/scoreboxl2
+1   E gen : ui/assets/hud/flag
+1     gen : ui/assets/score/ink_fade_right
+1     gen : ui/assets/score/ink_fade_left
+1     gen : ui/assets/score/scorebox_spec
+1     gen : ui/assets/hud/shadowl
+1     gen : ui/assets/hud/h200
+1     gen : ui/assets/hud/h100
+1     gen : ui/assets/hud/h200line
+1     gen : ui/assets/hud/h100line
+1     gen : fonts2/handelgothic_0_48.tga
+1     gen : fonts2/handelgothic_1_48.tga
+1     gen : fonts2/handelgothic_2_48.tga
+1     gen : fonts2/handelgothic_3_48.tga
+1     gen : fonts2/handelgothic_4_48.tga
+1     gen : fonts2/handelgothic_5_48.tga
+1     gen : ui/assets/hud/shadowr
+1     gen : ui/assets/hud/a200
+1     gen : ui/assets/hud/a100
+1     gen : ui/assets/hud/a200line
+1     gen : ui/assets/hud/a100line
+1     gen : ui/assets/hud/roundbox
+1     gen : ui/assets/score/rr_remaining_team
+1     gen : ui/assets/score/rr_remaining_enemy
+1     gen : fonts2/notosans-regular_0_16.tga
+3   E gen : models/players/ranger/bright
+1   E gen : models/players/ranger/sport_h
+1     gen : models/players/ranger/icon_bright
+1   E gen : models/players/sarge/band
+1   E gen : models/players/sarge/null
+1     gen : models/players/sarge/icon_default
+3   E gen : models/players/visor/bright
+1     gen : models/players/visor/icon_bright
+1   E gen : impact2
+1   E gen : impact3
+1   E gen : impact4
+1   E gen : impact1
+1072 total shaders
+------------------
+
