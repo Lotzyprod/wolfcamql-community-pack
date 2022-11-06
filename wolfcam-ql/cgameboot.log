@@ -1,1469 +1,20 @@
-./baseq3/map_cpm5.pk3 (7 files) 4f498ad6
-./baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
-./baseq3/map_cpm4.pk3 (7 files) 49f79b48
-./baseq3/map_cpm3a.pk3 (79 files) 373787f0
-./baseq3/map_cpm3.pk3 (28 files) f2caf163
-./baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
-./baseq3/map_cpm28.pk3 (33 files) b20d2545
-./baseq3/map_cpm27.pk3 (95 files) 44b44403
-./baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
-./baseq3/map_cpm24.pk3 (44 files) aa818c79
-./baseq3/map_cpm23.pk3 (91 files) cb18b600
-./baseq3/map_cpm22.pk3 (60 files) fe675c12
-./baseq3/map_cpm21.pk3 (93 files) 981bde34
-./baseq3/map_cpm20.pk3 (82 files) eed6ff38
-./baseq3/map_cpm2.pk3 (14 files) ca5fc378
-./baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
-./baseq3/map_cpm19.pk3 (58 files) 72c6065f
-./baseq3/map_cpm18.pk3 (77 files) ef373e21
-./baseq3/map_cpm17.pk3 (71 files) b7566cd0
-./baseq3/map_cpm16.pk3 (34 files) cb63058c
-./baseq3/map_cpm15.pk3 (28 files) 600010d7
-./baseq3/map_cpm14.pk3 (86 files) aee0a6a6
-./baseq3/map_cpm13.pk3 (72 files) efec615b
-./baseq3/map_cpm12.pk3 (20 files) 9634eb60
-./baseq3/map_cpm11a.pk3 (18 files) 8864f595
-./baseq3/map_cpm11.pk3 (15 files) 6d5bee85
-./baseq3/map_cpm10.pk3 (16 files) eb19341f
-./baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
+Linux, 6.0.6-arch1-1, #1 SMP PREEMPT_DYNAMIC Sat, 29 Oct 2022 14:08:39 +0000,
+x86_64
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://archlinux.org/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://bugs.archlinux.org/"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=archlinux-logo
 
-handle 1: demos/carocket.dm_68
-----------------------
-22014 files in pk3 files
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.09 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-Try loading dll file .//wolfcam-ql/cgamex86_64.so
-Loading DLL file: .//wolfcam-ql/cgamex86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/cgamex86_64.so) found vmMain function at 0x7f784d633f70
-CG_Init() version: 12.5
-CG_Init()  serverMessageNum 18737  serverCommandSequence 0  clientNum 4
-client set protocol: 68
-cpma: 1.52
-Client/Server game mismatch: baseq3-1/cpma-1
-cgame: load map maps/pro-q3dm6.bsp
-CM_LoadMap(maps/pro-q3dm6.bsp)
-Com_Error(): CM_LoadMap(): Couldn't load maps/pro-q3dm6.bsp********************
-ERROR: CM_LoadMap(): Couldn't load maps/pro-q3dm6.bsp
-********************
-disconnect
-local ents shutdown
-freed 0.000000 mb for jit fx tokens
-forcefully unloading cgame vm
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.09 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-disconnect
-real gamestate protocol 68
-demo parse protocol 68
-cpma
-invalid snap 0  serverTime 0
-firstServerTime 215238
-parse demo serverFrameTime 33 ms
-game start time: 225138
-game end time: 825639
-end of demo
-last serverTime 829203   total 10.232750 minutes
-18609 snaps in demo
-41 obits in demo
-84 item pickups in demo
-0 timeout spans in demo
-parse time 0.178000 seconds
-checking workshops
-real gamestate protocol 68
------ FS_Startup -----
-read cd key
-append cd key
-We are looking in the current search path:
-.//wolfcam-ql
-.//wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
-./wolfcam-ql
-./wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
-.//baseq3
-.//baseq3/ra3map11.pk3 (32 files) bcb43188
-.//baseq3/poyoba.pk3 (39 files) 5d5fd226
-.//baseq3/pak00.pk3 (9298 files) 5eee56a8
-.//baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
-.//baseq3/map_cpm8.pk3 (13 files) bbeef76f
-.//baseq3/map_cpm7.pk3 (15 files) bd5f4392
-.//baseq3/map_cpm6.pk3 (41 files) d52f38aa
-.//baseq3/map_cpm5.pk3 (7 files) 4f498ad6
-.//baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
-.//baseq3/map_cpm4.pk3 (7 files) 49f79b48
-.//baseq3/map_cpm3a.pk3 (79 files) 373787f0
-.//baseq3/map_cpm3.pk3 (28 files) f2caf163
-.//baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
-.//baseq3/map_cpm28.pk3 (33 files) b20d2545
-.//baseq3/map_cpm27.pk3 (95 files) 44b44403
-.//baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
-.//baseq3/map_cpm24.pk3 (44 files) aa818c79
-.//baseq3/map_cpm23.pk3 (91 files) cb18b600
-.//baseq3/map_cpm22.pk3 (60 files) fe675c12
-.//baseq3/map_cpm21.pk3 (93 files) 981bde34
-.//baseq3/map_cpm20.pk3 (82 files) eed6ff38
-.//baseq3/map_cpm2.pk3 (14 files) ca5fc378
-.//baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
-.//baseq3/map_cpm19.pk3 (58 files) 72c6065f
-.//baseq3/map_cpm18.pk3 (77 files) ef373e21
-.//baseq3/map_cpm17.pk3 (71 files) b7566cd0
-.//baseq3/map_cpm16.pk3 (34 files) cb63058c
-.//baseq3/map_cpm15.pk3 (28 files) 600010d7
-.//baseq3/map_cpm14.pk3 (86 files) aee0a6a6
-.//baseq3/map_cpm13.pk3 (72 files) efec615b
-.//baseq3/map_cpm12.pk3 (20 files) 9634eb60
-.//baseq3/map_cpm11a.pk3 (18 files) 8864f595
-.//baseq3/map_cpm11.pk3 (15 files) 6d5bee85
-.//baseq3/map_cpm10.pk3 (16 files) eb19341f
-.//baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
-./baseq3
-./baseq3/ra3map11.pk3 (32 files) bcb43188
-./baseq3/poyoba.pk3 (39 files) 5d5fd226
-./baseq3/pak00.pk3 (9298 files) 5eee56a8
-./baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
-./baseq3/map_cpm8.pk3 (13 files) bbeef76f
-./baseq3/map_cpm7.pk3 (15 files) bd5f4392
-./baseq3/map_cpm6.pk3 (41 files) d52f38aa
-./baseq3/map_cpm5.pk3 (7 files) 4f498ad6
-./baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
-./baseq3/map_cpm4.pk3 (7 files) 49f79b48
-./baseq3/map_cpm3a.pk3 (79 files) 373787f0
-./baseq3/map_cpm3.pk3 (28 files) f2caf163
-./baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
-./baseq3/map_cpm28.pk3 (33 files) b20d2545
-./baseq3/map_cpm27.pk3 (95 files) 44b44403
-./baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
-./baseq3/map_cpm24.pk3 (44 files) aa818c79
-./baseq3/map_cpm23.pk3 (91 files) cb18b600
-./baseq3/map_cpm22.pk3 (60 files) fe675c12
-./baseq3/map_cpm21.pk3 (93 files) 981bde34
-./baseq3/map_cpm20.pk3 (82 files) eed6ff38
-./baseq3/map_cpm2.pk3 (14 files) ca5fc378
-./baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
-./baseq3/map_cpm19.pk3 (58 files) 72c6065f
-./baseq3/map_cpm18.pk3 (77 files) ef373e21
-./baseq3/map_cpm17.pk3 (71 files) b7566cd0
-./baseq3/map_cpm16.pk3 (34 files) cb63058c
-./baseq3/map_cpm15.pk3 (28 files) 600010d7
-./baseq3/map_cpm14.pk3 (86 files) aee0a6a6
-./baseq3/map_cpm13.pk3 (72 files) efec615b
-./baseq3/map_cpm12.pk3 (20 files) 9634eb60
-./baseq3/map_cpm11a.pk3 (18 files) 8864f595
-./baseq3/map_cpm11.pk3 (15 files) 6d5bee85
-./baseq3/map_cpm10.pk3 (16 files) eb19341f
-./baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
-
-handle 1: demos/gizmakombo.dm_68
-----------------------
-22014 files in pk3 files
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.09 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-Try loading dll file .//wolfcam-ql/cgamex86_64.so
-Loading DLL file: .//wolfcam-ql/cgamex86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/cgamex86_64.so) found vmMain function at 0x7f784d633f70
-CG_Init() version: 12.5
-CG_Init()  serverMessageNum 9361  serverCommandSequence 0  clientNum 22
-client set protocol: 68
-cpma: 1.52
-Client/Server game mismatch: baseq3-1/cpma-1
-cgame: load map maps/cpm22.bsp
-CM_LoadMap(maps/cpm22.bsp)
-registered allowed ambient sound 'sound/items/poweruprespawn' 3
-registered allowed ambient sound 'sound/items/kamikazerespawn' 4
-registered allowed ambient sound 'sound/ambient/1shot_bell_01' 5
-registered allowed ambient sound 'sound/movers/doors/dr1_strt' 6
-registered allowed ambient sound 'sound/movers/doors/dr1_end' 7
-registered allowed ambient sound 'sound/player/gurp1' 8
-registered allowed ambient sound 'sound/player/gurp2' 9
-registered allowed ambient sound 'sound/world/klaxon1.ogg' 10
-registered allowed ambient sound 'sound/world/klaxon2.ogg' 11
-registered allowed ambient sound 'sound/world/buzzer.ogg' 12
-registered allowed ambient sound 'sound/world/bell_01.ogg' 13
-registered allowed ambient sound 'sound/world/hockey_horn' 14
-WARNING: Failed to load sound sound/items/cl_armorregen.ogg!
-WARNING: Failed to load sound sound/items/cl_armorregen.wav!
-S_RegisterSound() couldn't open 'sound/items/cl_armorregen.wav'
-WARNING: Failed to load sound sound/items/cl_doubler.ogg!
-WARNING: Failed to load sound sound/items/cl_doubler.wav!
-S_RegisterSound() couldn't open 'sound/items/cl_doubler.wav'
-WARNING: Failed to load sound sound/items/cl_guard.ogg!
-WARNING: Failed to load sound sound/items/cl_guard.wav!
-S_RegisterSound() couldn't open 'sound/items/cl_guard.wav'
-WARNING: Failed to load sound sound/items/cl_scout.ogg!
-WARNING: Failed to load sound sound/items/cl_scout.wav!
-S_RegisterSound() couldn't open 'sound/items/cl_scout.wav'
-registered sound 1  'sound/player/fry' 171
-registered sound 2  'sound/world/q2wind2' 172
-registered sound 3  'sound/world/jumppad' 119
-registered sound 4  'sound/world/hub3_tel' 173
-cgame: loadworldmap maps/cpm22.bsp
-RE_LoadWorldMap(maps/cpm22.bsp)
-stitched 0 LoD cracks
-...loaded 2672 faces, 7 meshes, 0 trisurfs, 0 flares
-new crosshairs
-default crosshairs
-trying alternate blood explosion
-WARNING: R_FindImageFile could not find 'icons/key_master.tga' in shader 'icons/key_master'
-Shader icons/key_master has a stage with no image
-extra 0  'bitterman/pm'
-extra 1  'mynx/pm'
-extra 2  'razor'
-CG_EventHandling type: 4
-CG_EventHandling type: 4  not handled
-Menu_Reset()
-loading default menus
-CG_ParseMenu() ui/intro.menu  unknown token '\'
-CG_ParseMenu() ui/intro.menu  unknown token '\'
-CG_ParseMenu() ui/intro.menu  unknown token 'score_menu'
-CG_ParseMenu() ui/intro.menu  unknown token '\'
-CG_ParseMenu() ui/intro.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescoreteam.menu  unknown token 'score_menu'
-CG_ParseMenu() ui/ingamescoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescorenoteam.menu  unknown token 'score_menu'
-CG_ParseMenu() ui/ingamescorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamescorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscoreteam.menu  unknown token 'score_menu'
-CG_ParseMenu() ui/endscoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscoreteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscorenoteam.menu  unknown token 'score_menu'
-CG_ParseMenu() ui/endscorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/endscorenoteam.menu  unknown token '\'
-CG_ParseMenu() ui/ingamestats.menu  unknown token '\'
-CG_ParseMenu() ui/ingamestats.menu  unknown token '\'
-CG_ParseMenu() ui/ingamestats.menu  unknown token 'score_menu'
-CG_ParseMenu() ui/ingamestats.menu  unknown token '\'
-CG_ParseMenu() ui/ingamestats.menu  unknown token '\'
-CG_LoadMenus()  ui/hud.txt
-UI menu load time = 101 milli seconds  ui/hud.txt
-freed 0.000000 mb for jit fx tokens
-effect: 'player/haste'
-effect: 'player/flight'
-effect: 'player/talk'
-effect: 'player/impressive'
-effect: 'player/excellent'
-effect: 'player/teleportin'
-effect: 'player/teleportout'
-effect: 'weapon/gauntlet/flash'
-effect: 'weapon/gauntlet/impactflesh'
-effect: 'weapon/machinegun/flash'
-effect: 'weapon/machinegun/trail'
-effect: 'weapon/machinegun/fire'
-effect: 'weapon/machinegun/impact'
-effect: 'weapon/machinegun/impactflesh'
-effect: 'weapon/shotgun/flash'
-effect: 'weapon/shotgun/trail'
-effect: 'weapon/shotgun/fire'
-effect: 'weapon/shotgun/impact'
-effect: 'weapon/shotgun/impactflesh'
-effect: 'weapon/grenade/flash'
-effect: 'weapon/grenade/impact'
-effect: 'weapon/grenade/projectile'
-effect: 'weapon/grenade/impactflesh'
-effect: 'weapon/grenade/trail'
-effect: 'weapon/rocket/flash'
-effect: 'weapon/rocket/impact'
-effect: 'weapon/rocket/projectile'
-effect: 'weapon/rocket/impactflesh'
-effect: 'weapon/rocket/trail'
-effect: 'weapon/lightning/flash'
-effect: 'weapon/lightning/impactflesh'
-effect: 'weapon/lightning/impact'
-effect: 'weapon/bfg/flash'
-effect: 'weapon/bfg/impact'
-effect: 'weapon/bfg/impactflesh'
-effect: 'weapon/bfg/projectile'
-effect: 'weapon/bfg/trail'
-effect: 'weapon/rail/impactflesh'
-effect: 'weapon/rail/trail'
-effect: 'weapon/rail/impact'
-effect: 'weapon/rail/flash'
-effect: 'weapon/rail/fire'
-effect: 'weapon/plasma/projectile'
-effect: 'weapon/plasma/flash'
-effect: 'weapon/plasma/impactflesh'
-effect: 'weapon/plasma/trail'
-effect: 'weapon/plasma/impact'
-effect: 'player/gibbed'
-effect: 'weapon/nailgun/projectile'
-effect: 'weapon/nailgun/impact'
-effect: 'weapon/nailgun/impactflesh'
-effect: 'weapon/nailgun/trail'
-effect: 'weapon/hmg/flash'
-effect: 'weapon/hmg/trail'
-effect: 'weapon/hmg/fire'
-effect: 'weapon/prox/flash'
-effect: 'weapon/prox/impact'
-effect: 'weapon/prox/trail'
-effect: 'weapon/prox/impactflesh'
-effect: 'weapon/chaingun/flash'
-effect: 'weapon/chaingun/trail'
-effect: 'weapon/chaingun/fire'
-effect: 'weapon/chaingun/impact'
-effect: 'weapon/chaingun/impactflesh'
-effect: 'fovi'
-extra effect:  'fovi'
-CL_InitCGame: 13.09 seconds, total time: 838.98
-1039 msec to draw all images
-Com_TouchMemory: 0 msec
-Dumped console text to cgameboot.log.
-set initial snapshot
-serverCommandSequence 166
-ads: 0
-loading our model
-loading teammate models
-loading red team models
-loading blue team models
-loading fallback model
-sv_fps 30  33 ms
-cg.frametime > 200  (440)  oldSnapNum 9363  snapNum 9376
-Gizma: gl
-cg.frametime > 200  (242)  oldSnapNum 9480  snapNum 9487
-Gizma: :)
-nixon: WOROLOLO
-cgame: map restart
-cg.frametime > 200  (448)  oldSnapNum 9722  snapNum 9735
-cg.frametime > 200  (334)  oldSnapNum 9735  snapNum 9745
-cg.frametime > 200  (722)  oldSnapNum 9753  snapNum 9774
-Gizma: :)
-nixon almost dodged Gizma's rocket
-nixon was railed by Gizma
-nixon almost dodged Gizma's rocket
-nixon was railed by Gizma
-nixon almost dodged Gizma's rocket
-Gizma almost dodged nixon's rocket
-Gizma: :)
-nixon almost dodged Gizma's rocket
-nixon was railed by Gizma
-nixon was railed by Gizma
-nixon ate Gizma's rocket
-nixon: WOROLOLO
-Gizma: :)
-nixon was electrocuted by Gizma
-nixon was railed by Gizma
-cg.frametime > 200  (258)  oldSnapNum 16437  snapNum 16445
-nixon was electrocuted by Gizma
-nixon ate Gizma's rocket
-Gizma was electrocuted by nixon
-Gizma ate nixon's rocket
-Gizma: :)
-Gizma almost dodged nixon's rocket
-nixon blew himself up.
-nixon almost dodged Gizma's rocket
-]\frag
-    fragforward
-    fragmessage_on = "cg_drawFragMessageSeparate 1 ... GMESSAGE AND MEDALS ENABLED"  default "cg_drawFragMessageSeparate 1; cg_Drawrewards 1; set
-fragmesstoggle vstr fragmessage_off; echopopup FRAGMESSAGE AND MEDALS ENABLED"
-    fragmessage_off = "cg_drawFragMessageSeparate 0 ... MESSAGE AND MEDALS DISABLED"  default "cg_drawFragMessageSeparate 0; cg_Drawrewards 0; set
-fragmesstoggle vstr fragmessage_on; echopopup FRAGMESSAGE AND MEDALS DISABLED"
-    fragmesstoggle = "vstr fragmessage_on"  default "vstr fragmessage_on"
-    fraglimit = "20"  default "20"
-nixon almost dodged Gizma's rocket
-]\fragforward
-fragforward on
-fragforward frag count 1
-Gizma was electrocuted by nixon
-]\fragforward
-fragforward on
-nixon ate Gizma's rocket
-]\fragforward
-fragforward on
-nixon: WOROLOLO
-cg.frametime > 200  (277)  oldSnapNum 23111  snapNum 23119
-Gizma: :)
-nixon was railed by Gizma
-]\fragforward 1
-fragforward on
-]\fragforward 1
-fragforward off
-nixon ate Gizma's grenade
-]\fragforward
-fragforward on
-Uruk-Hai connected (LV, Latvia)
-Uruk-Hai disconnected
-nixon was railed by Gizma
-Uruk-Hai connected (LV, Latvia)
-cg.frametime > 200  (209)  oldSnapNum 23913  snapNum 23919
-]\disconnect
-Com_Error(): Disconnected from serverdisconnect
-local ents shutdown
-freed 0.184288 mb for jit fx tokens
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.10 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-disconnect
-real gamestate protocol 68
-demo parse protocol 68
-cpma
-invalid snap 0  serverTime 0
-firstServerTime 5403728
-parse demo serverFrameTime 33 ms
-game start time: 5413628
-game end time: 6014129
-end of demo
-last serverTime 6017693   total 10.232750 minutes
-18603 snaps in demo
-29 obits in demo
-73 item pickups in demo
-0 timeout spans in demo
-parse time 0.147000 seconds
-checking workshops
-real gamestate protocol 68
------ FS_Startup -----
-read cd key
-append cd key
-We are looking in the current search path:
-.//wolfcam-ql
-.//wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
-./wolfcam-ql
-./wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
-.//baseq3
-.//baseq3/ra3map11.pk3 (32 files) bcb43188
-.//baseq3/poyoba.pk3 (39 files) 5d5fd226
-.//baseq3/pak00.pk3 (9298 files) 5eee56a8
-.//baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
-.//baseq3/map_cpm8.pk3 (13 files) bbeef76f
-.//baseq3/map_cpm7.pk3 (15 files) bd5f4392
-.//baseq3/map_cpm6.pk3 (41 files) d52f38aa
-.//baseq3/map_cpm5.pk3 (7 files) 4f498ad6
-.//baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
-.//baseq3/map_cpm4.pk3 (7 files) 49f79b48
-.//baseq3/map_cpm3a.pk3 (79 files) 373787f0
-.//baseq3/map_cpm3.pk3 (28 files) f2caf163
-.//baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
-.//baseq3/map_cpm28.pk3 (33 files) b20d2545
-.//baseq3/map_cpm27.pk3 (95 files) 44b44403
-.//baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
-.//baseq3/map_cpm24.pk3 (44 files) aa818c79
-.//baseq3/map_cpm23.pk3 (91 files) cb18b600
-.//baseq3/map_cpm22.pk3 (60 files) fe675c12
-.//baseq3/map_cpm21.pk3 (93 files) 981bde34
-.//baseq3/map_cpm20.pk3 (82 files) eed6ff38
-.//baseq3/map_cpm2.pk3 (14 files) ca5fc378
-.//baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
-.//baseq3/map_cpm19.pk3 (58 files) 72c6065f
-.//baseq3/map_cpm18.pk3 (77 files) ef373e21
-.//baseq3/map_cpm17.pk3 (71 files) b7566cd0
-.//baseq3/map_cpm16.pk3 (34 files) cb63058c
-.//baseq3/map_cpm15.pk3 (28 files) 600010d7
-.//baseq3/map_cpm14.pk3 (86 files) aee0a6a6
-.//baseq3/map_cpm13.pk3 (72 files) efec615b
-.//baseq3/map_cpm12.pk3 (20 files) 9634eb60
-.//baseq3/map_cpm11a.pk3 (18 files) 8864f595
-.//baseq3/map_cpm11.pk3 (15 files) 6d5bee85
-.//baseq3/map_cpm10.pk3 (16 files) eb19341f
-.//baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
-./baseq3
-./baseq3/ra3map11.pk3 (32 files) bcb43188
-./baseq3/poyoba.pk3 (39 files) 5d5fd226
-./baseq3/pak00.pk3 (9298 files) 5eee56a8
-./baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
-./baseq3/map_cpm8.pk3 (13 files) bbeef76f
-./baseq3/map_cpm7.pk3 (15 files) bd5f4392
-./baseq3/map_cpm6.pk3 (41 files) d52f38aa
-./baseq3/map_cpm5.pk3 (7 files) 4f498ad6
-./baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
-./baseq3/map_cpm4.pk3 (7 files) 49f79b48
-./baseq3/map_cpm3a.pk3 (79 files) 373787f0
-./baseq3/map_cpm3.pk3 (28 files) f2caf163
-./baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
-./baseq3/map_cpm28.pk3 (33 files) b20d2545
-./baseq3/map_cpm27.pk3 (95 files) 44b44403
-./baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
-./baseq3/map_cpm24.pk3 (44 files) aa818c79
-./baseq3/map_cpm23.pk3 (91 files) cb18b600
-./baseq3/map_cpm22.pk3 (60 files) fe675c12
-./baseq3/map_cpm21.pk3 (93 files) 981bde34
-./baseq3/map_cpm20.pk3 (82 files) eed6ff38
-./baseq3/map_cpm2.pk3 (14 files) ca5fc378
-./baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
-./baseq3/map_cpm19.pk3 (58 files) 72c6065f
-./baseq3/map_cpm18.pk3 (77 files) ef373e21
-./baseq3/map_cpm17.pk3 (71 files) b7566cd0
-./baseq3/map_cpm16.pk3 (34 files) cb63058c
-./baseq3/map_cpm15.pk3 (28 files) 600010d7
-./baseq3/map_cpm14.pk3 (86 files) aee0a6a6
-./baseq3/map_cpm13.pk3 (72 files) efec615b
-./baseq3/map_cpm12.pk3 (20 files) 9634eb60
-./baseq3/map_cpm11a.pk3 (18 files) 8864f595
-./baseq3/map_cpm11.pk3 (15 files) 6d5bee85
-./baseq3/map_cpm10.pk3 (16 files) eb19341f
-./baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
-
-handle 1: demos/VERTUHA.dm_68
-----------------------
-22014 files in pk3 files
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.10 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-Try loading dll file .//wolfcam-ql/cgamex86_64.so
-Loading DLL file: .//wolfcam-ql/cgamex86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/cgamex86_64.so) found vmMain function at 0x7f784d633f70
-CG_Init() version: 12.5
-CG_Init()  serverMessageNum 1015  serverCommandSequence 0  clientNum 3
-client set protocol: 68
-cpma: 1.52
-Client/Server game mismatch: baseq3-1/cpma-1
-cgame: load map maps/pukka3tourney2.bsp
-CM_LoadMap(maps/pukka3tourney2.bsp)
-Com_Error(): CM_LoadMap(): Couldn't load maps/pukka3tourney2.bsp********************
-ERROR: CM_LoadMap(): Couldn't load maps/pukka3tourney2.bsp
-********************
-disconnect
-local ents shutdown
-freed 0.000000 mb for jit fx tokens
-forcefully unloading cgame vm
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.09 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-]\r_preloadtextures
-"r_preloadtextures" is:"1", the default
-disconnect
-real gamestate protocol 68
-demo parse protocol 68
-cpma
-invalid snap 0  serverTime 0
-firstServerTime 5403728
-parse demo serverFrameTime 33 ms
-game start time: 5413628
-game end time: 6014129
-end of demo
-last serverTime 6017693   total 10.232750 minutes
-18603 snaps in demo
-29 obits in demo
-73 item pickups in demo
-0 timeout spans in demo
-parse time 0.149000 seconds
-checking workshops
-real gamestate protocol 68
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.09 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-Try loading dll file .//wolfcam-ql/cgamex86_64.so
-Loading DLL file: .//wolfcam-ql/cgamex86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/cgamex86_64.so) found vmMain function at 0x7f784d633f70
-CG_Init() version: 12.5
-CG_Init()  serverMessageNum 1015  serverCommandSequence 0  clientNum 3
-client set protocol: 68
-cpma: 1.52
-Client/Server game mismatch: baseq3-1/cpma-1
-cgame: load map maps/pukka3tourney2.bsp
-CM_LoadMap(maps/pukka3tourney2.bsp)
-Com_Error(): CM_LoadMap(): Couldn't load maps/pukka3tourney2.bsp********************
-ERROR: CM_LoadMap(): Couldn't load maps/pukka3tourney2.bsp
-********************
-disconnect
-local ents shutdown
-freed 0.000000 mb for jit fx tokens
-forcefully unloading cgame vm
-RE_Shutdown( 0 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
-Hunk_Clear: reset the hunk ok
------ R_Init -----
-------- FBO_Init -------
-------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.10 seconds
-glsl/ql-compat.vs ->
-glsl/ql-compat-multi.vs ->
-scripts/colorcorrect.fs ->
-scripts/blurhoriz.fs ->
-scripts/blurvertical.fs ->
-scripts/brightpass.fs ->
-scripts/combine.fs ->
-scripts/downsample1.fs ->
-------- R_InitVaos -------
-glsl/cameraline.vs ->
-glsl/cameraline.fs ->
-camera path shader program ->
-Initializing Shaders
-trying default ql font fallbacks
-using fallbackfont: 'fonts/notosans-regular.ttf'
-using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
-trying default MS font fallbacks
-trying default system font fallbacks
-trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
-R_InitFreeType completed
-1: 5.394547 megabytes for mme work buffer
-0: 5.394547 megabytes for mme work buffer
-
-GL_VENDOR: NVIDIA Corporation
-GL_RENDERER: GeForce GT 630/PCIe/SSE2
-GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
-GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
-GL_MAX_TEXTURE_SIZE: 16384
-GL_MAX_TEXTURE_IMAGE_UNITS: 32
-
-PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
-MODE: -1, 1280 x 720 windowed hz:N/A
-GAMMA: hardware w/ 1 overbright bits
-texturemode: GL_LINEAR_MIPMAP_LINEAR
-picmip: 0
-texture bits: 32
-compiled vertex arrays: disabled
-texenv add: enabled
-compressed textures: disabled
------ finished R_Init -----
-Try loading dll file .//wolfcam-ql/uix86_64.so
-Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
-UI_Init() version: 12.5
-200 arenas parsed
-34 bots parsed
-]\vid_restart
+wolfcamql 12.5 linux-x86_64 Aug  2 2022
+SSE instruction set enabled
+SSE2 instruction set enabled
 ----- FS_Startup -----
 read cd key
 append cd key
@@ -1549,15 +100,19 @@ We are looking in the current search path:
 
 ----------------------
 22196 files in pk3 files
+execing default.cfg
+execing defaultwolfcam.cfg
+execing q3config.cfg
+com_zoneMegs will be changed upon restarting.
+couldn't exec autoexec.cfg
 Hunk_Clear: reset the hunk ok
-RE_Shutdown( 1 )
-------- FBO_Shutdown -------
-------- R_ShutdownVaos -------
-------- GLSL_ShutdownGPUShaders -------
-R_DoneFreeType
+----- Client Initialization -----
+allocated 220.34 MB for rewind backups
 ----- Initializing Renderer ----
 Trying to load "renderer_opengl2_x86_64.so" from "."...
 -------------------------------
+QKEY found.
+----- Client Initialization Complete -----
 ----- R_Init -----
 SDL using driver "x11"
 Initializing OpenGL display
@@ -1566,7 +121,8 @@ Display aspect: 1.778
 Trying to get an OpenGL 3.2 core context
 SDL_GL_CreateContext succeeded.
 Using 24 color bits, 24 depth, 8 stencil display.
-Available modes: '1280x720 1920x1080 1440x900 1680x1050 720x480 640x480 800x600 1024x768 1152x864 1280x960 1400x1050 1600x1200 720x576 1280x1024'
+Available modes: '1280x720 1920x1080 1440x900 1680x1050 720x480 640x480
+800x600 1024x768 1152x864 1280x960 1400x1050 1600x1200 720x576 1280x1024'
 GL_RENDERER: GeForce GT 630/PCIe/SSE2
 Initializing OpenGL extensions
 ...ignoring GL_EXT_texture_compression_s3tc
@@ -1612,8 +168,10 @@ using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
 trying default MS font fallbacks
 trying default system font fallbacks
 trying Unifont fallbacks
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
-addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
+addFontFallback:  couldn't allocate new face for fallback font
+'wcfonts/unifont_csur-8.0.01.ttf' from file system
+addFontFallback:  couldn't allocate new face for fallback font
+'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
 R_InitFreeType completed
 1: 5.394547 megabytes for mme work buffer
 0: 5.394547 megabytes for mme work buffer
@@ -1621,63 +179,131 @@ R_InitFreeType completed
 GL_VENDOR: NVIDIA Corporation
 GL_RENDERER: GeForce GT 630/PCIe/SSE2
 GL_VERSION: 3.2.0 NVIDIA 390.154
-GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
-GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
-GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
-GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
-GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
-GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
-GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
-GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
-GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
-GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
-GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
-GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
-GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
-GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
-GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
-GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
-GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
-GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
-GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
-GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
-GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
-GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
-GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
-GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
-GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
-GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
-GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
-GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
-GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
-GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
-GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
-GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
-GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
-GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
-GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
-GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
-GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
-GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
-GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
-GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
-GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
-GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
-GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
-GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
-GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
-GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
-GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
-GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
-GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
-GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
-GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
-GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
+GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays
+GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
+GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control
+GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
+GL_ARB_conservative_depth GL_ARB_compute_shader
+GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted
+GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output
+GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture
+GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers
+GL_ARB_draw_buffers_blend GL_ARB_draw_indirect
+GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
+GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility
+GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
+GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location
+GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport
+GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader
+GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object
+GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary
+GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5
+GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel
+GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters
+GL_ARB_instanced_arrays GL_ARB_internalformat_query
+GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata
+GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
+GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture
+GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
+GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object
+GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
+GL_ARB_program_interface_query GL_ARB_provoking_vertex
+GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior
+GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects
+GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects
+GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters
+GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters
+GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
+GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision
+GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
+GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod
+GL_ARB_shading_language_100 GL_ARB_shading_language_420pack
+GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow
+GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions
+GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader
+GL_ARB_texture_barrier GL_ARB_texture_border_clamp
+GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
+GL_ARB_texture_buffer_range GL_ARB_texture_compression
+GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc
+GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add
+GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar
+GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic
+GL_ARB_texture_float GL_ARB_texture_gather
+GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
+GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two
+GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle
+GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8
+GL_ARB_texture_storage GL_ARB_texture_storage_multisample
+GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query
+GL_ARB_transform_feedback2 GL_ARB_transform_feedback3
+GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
+GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra
+GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
+GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object
+GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
+GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos
+GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once
+GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra
+GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate
+GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract
+GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test
+GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced
+GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit
+GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats
+GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object
+GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil
+GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object
+GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex
+GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects
+GL_EXT_separate_specular_color GL_EXT_shader_image_load_store
+GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_stencil_two_side
+GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array
+GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
+GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc
+GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map
+GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3
+GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod
+GL_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object
+GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode
+GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query
+GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra
+GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object
+GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge
+GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat
+GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile
+GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness
+GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control
+GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
+GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list
+GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
+GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp
+GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility
+GL_NV_explicit_multisample GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance
+GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
+GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4
+GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1
+GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64
+GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent
+GL_NV_multisample_coverage GL_NV_multisample_filter_hint
+GL_NV_occlusion_query GL_NV_packed_depth_stencil
+GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
+GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite
+GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag
+GL_NV_register_combiners GL_NV_register_combiners2
+GL_NV_shader_atomic_counters GL_NV_shader_atomic_float
+GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
+GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc
+GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
+GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2
+GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
+GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop
+GL_NV_vertex_array_range GL_NV_vertex_array_range2
+GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory
+GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2
+GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NVX_conditional_render
+GL_NVX_gpu_memory_info GL_NV_shader_thread_group
+GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
 GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
 GL_MAX_TEXTURE_SIZE: 16384
 GL_MAX_TEXTURE_IMAGE_UNITS: 32
@@ -1692,126 +318,95 @@ compiled vertex arrays: disabled
 texenv add: enabled
 compressed textures: disabled
 ----- finished R_Init -----
+------ Initializing Sound ------
+SDL_Init( SDL_INIT_AUDIO )... OK
+SDL audio driver is "pulseaudio".
+SDL_AudioSpec:
+  Format:   AUDIO_S16LSB
+  Freq:     22050
+  Samples:  512
+  Channels: 2
+SDL capture device opened.
+Starting SDL audio callback...
+SDL audio initialized.
+----- Sound Info -----
+    2 channels
+10240 samples
+   16 samplebits (int)
+    1 submission_chunk
+22050 speed
+0x55d202445000 dma buffer
+No background file.
+----------------------
+Sound initialization successful.
+--------------------------------
+24.187500 MB for sound memory
+0.007812 MB for sound scratch buffer
+Sound memory manager started
 Try loading dll file .//wolfcam-ql/uix86_64.so
 Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
+Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at
+0x7f35149f72c0
 UI_Init() version: 12.5
 201 arenas parsed
 34 bots parsed
-disconnect
-real gamestate protocol 68
-demo parse protocol 68
-cpma
-invalid snap 0  serverTime 0
-firstServerTime 5403728
-parse demo serverFrameTime 33 ms
-game start time: 5413628
-game end time: 6014129
-end of demo
-last serverTime 6017693   total 10.232750 minutes
-18603 snaps in demo
-29 obits in demo
-73 item pickups in demo
-0 timeout spans in demo
-parse time 0.150000 seconds
-checking workshops
-real gamestate protocol 68
------ FS_Startup -----
-read cd key
-append cd key
-We are looking in the current search path:
-.//wolfcam-ql
-.//wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
-./wolfcam-ql
-./wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
-.//baseq3
-.//baseq3/ra3map11.pk3 (32 files) bcb43188
-.//baseq3/pukka3tourney2.pk3 (91 files) fa29cfac
-.//baseq3/poyoba.pk3 (39 files) 5d5fd226
-.//baseq3/pak00.pk3 (9298 files) 5eee56a8
-.//baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
-.//baseq3/map_cpm8.pk3 (13 files) bbeef76f
-.//baseq3/map_cpm7.pk3 (15 files) bd5f4392
-.//baseq3/map_cpm6.pk3 (41 files) d52f38aa
-.//baseq3/map_cpm5.pk3 (7 files) 4f498ad6
-.//baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
-.//baseq3/map_cpm4.pk3 (7 files) 49f79b48
-.//baseq3/map_cpm3a.pk3 (79 files) 373787f0
-.//baseq3/map_cpm3.pk3 (28 files) f2caf163
-.//baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
-.//baseq3/map_cpm28.pk3 (33 files) b20d2545
-.//baseq3/map_cpm27.pk3 (95 files) 44b44403
-.//baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
-.//baseq3/map_cpm24.pk3 (44 files) aa818c79
-.//baseq3/map_cpm23.pk3 (91 files) cb18b600
-.//baseq3/map_cpm22.pk3 (60 files) fe675c12
-.//baseq3/map_cpm21.pk3 (93 files) 981bde34
-.//baseq3/map_cpm20.pk3 (82 files) eed6ff38
-.//baseq3/map_cpm2.pk3 (14 files) ca5fc378
-.//baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
-.//baseq3/map_cpm19.pk3 (58 files) 72c6065f
-.//baseq3/map_cpm18.pk3 (77 files) ef373e21
-.//baseq3/map_cpm17.pk3 (71 files) b7566cd0
-.//baseq3/map_cpm16.pk3 (34 files) cb63058c
-.//baseq3/map_cpm15.pk3 (28 files) 600010d7
-.//baseq3/map_cpm14.pk3 (86 files) aee0a6a6
-.//baseq3/map_cpm13.pk3 (72 files) efec615b
-.//baseq3/map_cpm12.pk3 (20 files) 9634eb60
-.//baseq3/map_cpm11a.pk3 (18 files) 8864f595
-.//baseq3/map_cpm11.pk3 (15 files) 6d5bee85
-.//baseq3/map_cpm10.pk3 (16 files) eb19341f
-.//baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
-./baseq3
-./baseq3/ra3map11.pk3 (32 files) bcb43188
-./baseq3/pukka3tourney2.pk3 (91 files) fa29cfac
-./baseq3/poyoba.pk3 (39 files) 5d5fd226
-./baseq3/pak00.pk3 (9298 files) 5eee56a8
-./baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
-./baseq3/map_cpm8.pk3 (13 files) bbeef76f
-./baseq3/map_cpm7.pk3 (15 files) bd5f4392
-./baseq3/map_cpm6.pk3 (41 files) d52f38aa
-./baseq3/map_cpm5.pk3 (7 files) 4f498ad6
-./baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
-./baseq3/map_cpm4.pk3 (7 files) 49f79b48
-./baseq3/map_cpm3a.pk3 (79 files) 373787f0
-./baseq3/map_cpm3.pk3 (28 files) f2caf163
-./baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
-./baseq3/map_cpm28.pk3 (33 files) b20d2545
-./baseq3/map_cpm27.pk3 (95 files) 44b44403
-./baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
-./baseq3/map_cpm24.pk3 (44 files) aa818c79
-./baseq3/map_cpm23.pk3 (91 files) cb18b600
-./baseq3/map_cpm22.pk3 (60 files) fe675c12
-./baseq3/map_cpm21.pk3 (93 files) 981bde34
-./baseq3/map_cpm20.pk3 (82 files) eed6ff38
-./baseq3/map_cpm2.pk3 (14 files) ca5fc378
-./baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
-./baseq3/map_cpm19.pk3 (58 files) 72c6065f
-./baseq3/map_cpm18.pk3 (77 files) ef373e21
-./baseq3/map_cpm17.pk3 (71 files) b7566cd0
-./baseq3/map_cpm16.pk3 (34 files) cb63058c
-./baseq3/map_cpm15.pk3 (28 files) 600010d7
-./baseq3/map_cpm14.pk3 (86 files) aee0a6a6
-./baseq3/map_cpm13.pk3 (72 files) efec615b
-./baseq3/map_cpm12.pk3 (20 files) 9634eb60
-./baseq3/map_cpm11a.pk3 (18 files) 8864f595
-./baseq3/map_cpm11.pk3 (15 files) 6d5bee85
-./baseq3/map_cpm10.pk3 (16 files) eb19341f
-./baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
-
-handle 1: demos/VERTUHA.dm_68
-----------------------
-22196 files in pk3 files
-RE_Shutdown( 0 )
+--- Common Initialization Complete ---
+IP: 127.0.0.1
+IP: 192.168.0.109
+IP6: ::1
+IP6: fe80::ef66:b118:3dc2:7746%enp2s0
+Opening IP6 socket: [::]:27960
+Opening IP socket: 0.0.0.0:27960
+]\exec lotzypov.cfg
+r_mergeLightmaps will be changed upon restarting.
+r_dlightMode will be changed upon restarting.
+r_imageUpsample will be changed upon restarting.
+r_imageUpsampleMaxSize will be changed upon restarting.
+]\vid_restart
+Hunk_Clear: reset the hunk ok
+RE_Shutdown( 1 )
 ------- FBO_Shutdown -------
 ------- R_ShutdownVaos -------
 ------- GLSL_ShutdownGPUShaders -------
 R_DoneFreeType
-Hunk_Clear: reset the hunk ok
+----- Initializing Renderer ----
+Trying to load "renderer_opengl2_x86_64.so" from "."...
+-------------------------------
 ----- R_Init -----
+SDL using driver "x11"
+Initializing OpenGL display
+Display aspect: 1.778
+...setting mode -1: 1280 720
+Trying to get an OpenGL 3.2 core context
+SDL_GL_CreateContext succeeded.
+Using 24 color bits, 24 depth, 8 stencil display.
+Available modes: '1280x720 1920x1080 1440x900 1680x1050 720x480 640x480 800x600 1024x768 1152x864 1280x960 1400x1050 1600x1200 720x576 1280x1024'
+GL_RENDERER: GeForce GT 630/PCIe/SSE2
+Initializing OpenGL extensions
+...ignoring GL_EXT_texture_compression_s3tc
+...ignoring GL_S3_s3tc
+...using GL_ARB_texture_rectangle
+...ignoring GL_EXT_texture_filter_anisotropic
+...using GL_SGIS_texture_edge_clamp
+...using fragment shaders
+...using GL_EXT_framebuffer_object
+...using GL_EXT_packed_depth_stencil
+...using GL_EXT_framebuffer_multisample
+...using GL_EXT_framebuffer_blit
+...using GL_ARB_framebuffer_object
+...using GL_ARB_vertex_array_object
+...using GL_ARB_texture_float
+...using GL_ARB_depth_clamp
+...ignoring GL_ARB_seamless_cube_map
+...using GLSL version 1.50 NVIDIA via Cg compiler
+...using GL_NVX_gpu_memory_info
+...GL_ATI_meminfo not found
+...ignoring GL_ARB_texture_compression_rgtc
+...ignoring GL_ARB_texture_compression_bptc
+...using GL_EXT_direct_state_access
 ------- FBO_Init -------
 ------- GLSL_InitGPUShaders -------
-loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.10 seconds
+loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.12 seconds
 glsl/ql-compat.vs ->
 glsl/ql-compat-multi.vs ->
 scripts/colorcorrect.fs ->
@@ -1913,20 +508,256 @@ compressed textures: disabled
 ----- finished R_Init -----
 Try loading dll file .//wolfcam-ql/uix86_64.so
 Loading DLL file: .//wolfcam-ql/uix86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f78916be2c0
+Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f35340fd2c0
+UI_Init() version: 12.5
+201 arenas parsed
+34 bots parsed
+]\map cpm22
+------ Server Initialization ------
+Server: cpm22
+disconnect
+RE_Shutdown( 0 )
+------- FBO_Shutdown -------
+------- R_ShutdownVaos -------
+------- GLSL_ShutdownGPUShaders -------
+R_DoneFreeType
+Hunk_Clear: reset the hunk ok
+----- FS_Startup -----
+read cd key
+append cd key
+We are looking in the current search path:
+.//wolfcam-ql
+.//wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
+./wolfcam-ql
+./wolfcam-ql/wolfcam_fixes.pk3 (46 files) 7c367328
+.//baseq3
+.//baseq3/ra3map11.pk3 (32 files) bcb43188
+.//baseq3/pukka3tourney2.pk3 (91 files) fa29cfac
+.//baseq3/poyoba.pk3 (39 files) 5d5fd226
+.//baseq3/pak00.pk3 (9298 files) 5eee56a8
+.//baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
+.//baseq3/map_cpm8.pk3 (13 files) bbeef76f
+.//baseq3/map_cpm7.pk3 (15 files) bd5f4392
+.//baseq3/map_cpm6.pk3 (41 files) d52f38aa
+.//baseq3/map_cpm5.pk3 (7 files) 4f498ad6
+.//baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
+.//baseq3/map_cpm4.pk3 (7 files) 49f79b48
+.//baseq3/map_cpm3a.pk3 (79 files) 373787f0
+.//baseq3/map_cpm3.pk3 (28 files) f2caf163
+.//baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
+.//baseq3/map_cpm28.pk3 (33 files) b20d2545
+.//baseq3/map_cpm27.pk3 (95 files) 44b44403
+.//baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
+.//baseq3/map_cpm24.pk3 (44 files) aa818c79
+.//baseq3/map_cpm23.pk3 (91 files) cb18b600
+.//baseq3/map_cpm22.pk3 (60 files) fe675c12
+.//baseq3/map_cpm21.pk3 (93 files) 981bde34
+.//baseq3/map_cpm20.pk3 (82 files) eed6ff38
+.//baseq3/map_cpm2.pk3 (14 files) ca5fc378
+.//baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
+.//baseq3/map_cpm19.pk3 (58 files) 72c6065f
+.//baseq3/map_cpm18.pk3 (77 files) ef373e21
+.//baseq3/map_cpm17.pk3 (71 files) b7566cd0
+.//baseq3/map_cpm16.pk3 (34 files) cb63058c
+.//baseq3/map_cpm15.pk3 (28 files) 600010d7
+.//baseq3/map_cpm14.pk3 (86 files) aee0a6a6
+.//baseq3/map_cpm13.pk3 (72 files) efec615b
+.//baseq3/map_cpm12.pk3 (20 files) 9634eb60
+.//baseq3/map_cpm11a.pk3 (18 files) 8864f595
+.//baseq3/map_cpm11.pk3 (15 files) 6d5bee85
+.//baseq3/map_cpm10.pk3 (16 files) eb19341f
+.//baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
+./baseq3
+./baseq3/ra3map11.pk3 (32 files) bcb43188
+./baseq3/pukka3tourney2.pk3 (91 files) fa29cfac
+./baseq3/poyoba.pk3 (39 files) 5d5fd226
+./baseq3/pak00.pk3 (9298 files) 5eee56a8
+./baseq3/map_cpm9.pk3 (10 files) 0dc8dfe5
+./baseq3/map_cpm8.pk3 (13 files) bbeef76f
+./baseq3/map_cpm7.pk3 (15 files) bd5f4392
+./baseq3/map_cpm6.pk3 (41 files) d52f38aa
+./baseq3/map_cpm5.pk3 (7 files) 4f498ad6
+./baseq3/map_cpm4a.pk3 (74 files) d78e4f8c
+./baseq3/map_cpm4.pk3 (7 files) 49f79b48
+./baseq3/map_cpm3a.pk3 (79 files) 373787f0
+./baseq3/map_cpm3.pk3 (28 files) f2caf163
+./baseq3/map_cpm29.pk3 (78 files) 15c5d6b9
+./baseq3/map_cpm28.pk3 (33 files) b20d2545
+./baseq3/map_cpm27.pk3 (95 files) 44b44403
+./baseq3/map_cpm25.pk3 (59 files) 7bbd0bd0
+./baseq3/map_cpm24.pk3 (44 files) aa818c79
+./baseq3/map_cpm23.pk3 (91 files) cb18b600
+./baseq3/map_cpm22.pk3 (60 files) fe675c12
+./baseq3/map_cpm21.pk3 (93 files) 981bde34
+./baseq3/map_cpm20.pk3 (82 files) eed6ff38
+./baseq3/map_cpm2.pk3 (14 files) ca5fc378
+./baseq3/map_cpm1a.pk3 (57 files) 65f1dcb8
+./baseq3/map_cpm19.pk3 (58 files) 72c6065f
+./baseq3/map_cpm18.pk3 (77 files) ef373e21
+./baseq3/map_cpm17.pk3 (71 files) b7566cd0
+./baseq3/map_cpm16.pk3 (34 files) cb63058c
+./baseq3/map_cpm15.pk3 (28 files) 600010d7
+./baseq3/map_cpm14.pk3 (86 files) aee0a6a6
+./baseq3/map_cpm13.pk3 (72 files) efec615b
+./baseq3/map_cpm12.pk3 (20 files) 9634eb60
+./baseq3/map_cpm11a.pk3 (18 files) 8864f595
+./baseq3/map_cpm11.pk3 (15 files) 6d5bee85
+./baseq3/map_cpm10.pk3 (16 files) eb19341f
+./baseq3/cpm24a_fkd.pk3 (117 files) 2167314e
+
+----------------------
+22196 files in pk3 files
+CM_LoadMap(maps/cpm22.bsp)
+Try loading dll file .//wolfcam-ql/qagamex86_64.so
+Loading DLL file: .//wolfcam-ql/qagamex86_64.so
+Sys_LoadGameDll(.//wolfcam-ql/qagamex86_64.so) found vmMain function at 0x7f35338118e0
+------- Game Initialization -------
+gamename: baseq3
+gamedate: Aug  2 2022
+version: 12.5
+protocol 91
+0 teams with 0 entities
+17 items registered
+-----------------------------------
+------- BotLib Initialization -------
+loaded weapons.c
+loaded items.c
+loaded syn.c
+loaded rnd.c
+loaded match.c
+loaded rchat.c
+------------ Map Loading ------------
+trying to load maps/cpm22.aas
+loaded maps/cpm22.aas
+found 30 level items
+-------------------------------------
+34 bots parsed
+201 arenas parsed
+AAS initialized.
+-----------------------------------
+msec > clampTime  504 200
+real gamestate protocol 91
+RE_Shutdown( 0 )
+R_DoneFreeType
+----- R_Init -----
+------- FBO_Init -------
+------- GLSL_InitGPUShaders -------
+loaded 158 GLSL shaders (48 gen 84 light 26 etc) in  0.09 seconds
+glsl/ql-compat.vs ->
+glsl/ql-compat-multi.vs ->
+scripts/colorcorrect.fs ->
+scripts/blurhoriz.fs ->
+scripts/blurvertical.fs ->
+scripts/brightpass.fs ->
+scripts/combine.fs ->
+scripts/downsample1.fs ->
+------- R_InitVaos -------
+glsl/cameraline.vs ->
+glsl/cameraline.fs ->
+camera path shader program ->
+Initializing Shaders
+trying default ql font fallbacks
+using fallbackfont: 'fonts/notosans-regular.ttf'
+using fallbackfont: 'fonts/droidsansfallbackfull.ttf'
+trying default MS font fallbacks
+trying default system font fallbacks
+trying Unifont fallbacks
+addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_csur-8.0.01.ttf' from file system
+addFontFallback:  couldn't allocate new face for fallback font 'wcfonts/unifont_upper_csur-8.0.01.ttf' from file system
+R_InitFreeType completed
+1: 5.394547 megabytes for mme work buffer
+0: 5.394547 megabytes for mme work buffer
+
+GL_VENDOR: NVIDIA Corporation
+GL_RENDERER: GeForce GT 630/PCIe/SSE2
+GL_VERSION: 3.2.0 NVIDIA 390.154
+GL_EXTENSIONS: GL_AMD_multi_draw_indirect GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage
+GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage
+GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image
+GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control
+GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced
+GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility
+GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program
+GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB
+GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64
+GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays
+GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind
+GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile
+GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp
+GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness
+GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops
+GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store
+GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine
+GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shading_language_420pack GL_ARB_shading_language_include
+GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync
+GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32
+GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map
+GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3
+GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat
+GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg
+GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view
+GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query
+GL_ARB_transpose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit
+GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev
+GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc
+GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate
+GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access
+GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample
+GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4
+GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels
+GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_rescale_normal GL_EXT_secondary_color
+GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs
+GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1
+GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp
+GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_lod GL_EXT_texture_lod_bias
+GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_storage
+GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit
+GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip
+GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior
+GL_KHR_robustness GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count
+GL_NV_blend_equation_advanced GL_NV_blend_square GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_copy_depth_to_color
+GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample
+GL_NV_fence GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2
+GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5
+GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_multisample_coverage
+GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2
+GL_NV_path_rendering GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners
+GL_NV_register_combiners2 GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object
+GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle
+GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2
+GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit
+GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3
+GL_NVX_conditional_render GL_NVX_gpu_memory_info GL_NV_shader_thread_group GL_KHR_blend_equation_advanced GL_SGIS_generate_mipmap GL_SGIS_texture_lod
+GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+GL_MAX_TEXTURE_SIZE: 16384
+GL_MAX_TEXTURE_IMAGE_UNITS: 32
+
+PIXELFORMAT: color(24-bits) Z(24-bit) stencil(8-bits)
+MODE: -1, 1280 x 720 windowed hz:N/A
+GAMMA: hardware w/ 1 overbright bits
+texturemode: GL_LINEAR_MIPMAP_LINEAR
+picmip: 0
+texture bits: 32
+compiled vertex arrays: disabled
+texenv add: enabled
+compressed textures: disabled
+----- finished R_Init -----
+Try loading dll file .//wolfcam-ql/uix86_64.so
+Loading DLL file: .//wolfcam-ql/uix86_64.so
+Sys_LoadGameDll(.//wolfcam-ql/uix86_64.so) found vmMain function at 0x7f35340fd2c0
 UI_Init() version: 12.5
 201 arenas parsed
 34 bots parsed
 Try loading dll file .//wolfcam-ql/cgamex86_64.so
 Loading DLL file: .//wolfcam-ql/cgamex86_64.so
-Sys_LoadGameDll(.//wolfcam-ql/cgamex86_64.so) found vmMain function at 0x7f784d633f70
+Sys_LoadGameDll(.//wolfcam-ql/cgamex86_64.so) found vmMain function at 0x7f34e9633f70
 CG_Init() version: 12.5
-CG_Init()  serverMessageNum 1015  serverCommandSequence 0  clientNum 3
-client set protocol: 68
-cpma: 1.52
-Client/Server game mismatch: baseq3-1/cpma-1
-cgame: load map maps/pukka3tourney2.bsp
-CM_LoadMap(maps/pukka3tourney2.bsp)
+CG_Init()  serverMessageNum 2  serverCommandSequence 0  clientNum 2
+client set protocol: 91
+Client/Server game mismatch: baseq3-1/wolfcam-ql
+ql version 12.5.0.0
+cgame: load map maps/cpm22.bsp
+CM_LoadMap(maps/cpm22.bsp)
 registered allowed ambient sound 'sound/items/poweruprespawn' 3
 registered allowed ambient sound 'sound/items/kamikazerespawn' 4
 registered allowed ambient sound 'sound/ambient/1shot_bell_01' 5
@@ -1951,21 +782,35 @@ S_RegisterSound() couldn't open 'sound/items/cl_guard.wav'
 WARNING: Failed to load sound sound/items/cl_scout.ogg!
 WARNING: Failed to load sound sound/items/cl_scout.wav!
 S_RegisterSound() couldn't open 'sound/items/cl_scout.wav'
-registered sound 1  'sound/player/fry' 171
-registered sound 2  'sound/world/jumppad' 119
-cgame: loadworldmap maps/pukka3tourney2.bsp
-RE_LoadWorldMap(maps/pukka3tourney2.bsp)
+WARNING: Failed to load sound sound/items/cl_scout.ogg!
+WARNING: Failed to load sound sound/items/cl_scout.wav!
+S_RegisterSound() couldn't open 'sound/items/cl_scout.wav'
+WARNING: Failed to load sound sound/items/cl_guard.ogg!
+WARNING: Failed to load sound sound/items/cl_guard.wav!
+S_RegisterSound() couldn't open 'sound/items/cl_guard.wav'
+WARNING: Failed to load sound sound/items/cl_damage.ogg!
+WARNING: Failed to load sound sound/items/cl_damage.ogg!
+S_RegisterSound() couldn't open 'sound/items/cl_damage.ogg'
+WARNING: Failed to load sound sound/items/cl_armorregen.ogg!
+WARNING: Failed to load sound sound/items/cl_armorregen.wav!
+S_RegisterSound() couldn't open 'sound/items/cl_armorregen.wav'
+registered sound 1  'sound/player/fry' 180
+registered sound 2  'sound/world/q2wind2' 181
+registered sound 3  'sound/world/jumppad' 119
+registered sound 4  'sound/world/hub3_tel' 182
+cgame: loadworldmap maps/cpm22.bsp
+RE_LoadWorldMap(maps/cpm22.bsp)
 stitched 0 LoD cracks
-...loaded 5550 faces, 117 meshes, 26 trisurfs, 0 flares
+...loaded 2672 faces, 7 meshes, 0 trisurfs, 0 flares
 new crosshairs
 default crosshairs
 trying alternate blood explosion
+WARNING: R_FindImageFile could not find 'icons/spawnarmor.tga' in shader 'icons/spawnarmor'
+Shader icons/spawnarmor has a stage with no image
 WARNING: R_FindImageFile could not find 'icons/key_master.tga' in shader 'icons/key_master'
 Shader icons/key_master has a stage with no image
-extra 0  'mynx/fb'
-extra 1  'razor'
-CG_EventHandling type: 4
-CG_EventHandling type: 4  not handled
+WARNING: R_RemapShader: new shader team_icon/Red Team_red not found
+WARNING: R_RemapShader: new shader team_icon/Blue Team_blue not found
 Menu_Reset()
 loading default menus
 CG_ParseMenu() ui/intro.menu  unknown token '\'
@@ -1998,8 +843,13 @@ CG_ParseMenu() ui/ingamestats.menu  unknown token '\'
 CG_ParseMenu() ui/ingamestats.menu  unknown token 'score_menu'
 CG_ParseMenu() ui/ingamestats.menu  unknown token '\'
 CG_ParseMenu() ui/ingamestats.menu  unknown token '\'
+CG_ParseMenu() ui/ingame_scoreboard_ffa.menu  unknown token '\'
+CG_ParseMenu() ui/ingame_scoreboard_ffa.menu  unknown token '\'
+CG_ParseMenu() ui/ingame_scoreboard_ffa.menu  unknown token 'score_menu'
+CG_ParseMenu() ui/ingame_scoreboard_ffa.menu  unknown token '\'
+CG_ParseMenu() ui/ingame_scoreboard_ffa.menu  unknown token '\'
 CG_LoadMenus()  ui/hud.txt
-UI menu load time = 101 milli seconds  ui/hud.txt
+UI menu load time = 102 milli seconds  ui/hud.txt
 freed 0.000000 mb for jit fx tokens
 effect: 'player/haste'
 effect: 'player/flight'
@@ -2067,7 +917,7 @@ effect: 'weapon/chaingun/impact'
 effect: 'weapon/chaingun/impactflesh'
 effect: 'fovi'
 extra effect:  'fovi'
-CL_InitCGame: 15.44 seconds, total time: 1939.63
-1038 msec to draw all images
+CL_InitCGame: 24.48 seconds, total time: 47.43
+3262 msec to draw all images
 Com_TouchMemory: 0 msec
 

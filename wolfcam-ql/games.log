@@ -381,3 +381,276 @@
  22:27 Item: 7 weapon_rocketlauncher
  22:37 ShutdownGame:
  22:37 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667685123\wolfcamversion\12.5
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 2
+  0:04 Item: 2 weapon_rocketlauncher
+  0:09 Item: 2 weapon_rocketlauncher
+  0:32 Item: 2 ammo_shells
+  0:35 Item: 2 item_health
+  1:53 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  4:35 Item: 2 weapon_rocketlauncher
+  4:46 Item: 2 ammo_rockets
+  4:47 Item: 2 item_health
+ 12:13 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 13:40 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 14:04 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 14:07 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 14:14 Item: 2 item_health
+ 14:16 Item: 2 weapon_rocketlauncher
+ 14:50 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 14:53 Item: 2 weapon_rocketlauncher
+ 16:08 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 16:52 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 17:19 Item: 2 weapon_shotgun
+ 17:21 Item: 2 item_health_mega
+ 17:23 Item: 2 weapon_rocketlauncher
+ 17:55 Item: 2 weapon_rocketlauncher
+ 20:32 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 22:25 Item: 2 weapon_rocketlauncher
+ 22:29 Item: 2 item_health
+ 22:43 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 23:18 Item: 2 weapon_rocketlauncher
+ 23:25 Item: 2 weapon_rocketlauncher
+ 23:36 Item: 2 weapon_rocketlauncher
+ 23:43 Item: 2 item_armor_combat
+ 23:55 Item: 2 weapon_rocketlauncher
+ 48:10 Item: 2 weapon_rocketlauncher
+ 48:13 Item: 2 item_health
+ 48:23 Item: 2 weapon_rocketlauncher
+ 48:32 Item: 2 weapon_rocketlauncher
+ 49:05 Item: 2 item_health_mega
+ 49:26 Item: 2 weapon_rocketlauncher
+ 58:43 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 59:25 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 59:43 Item: 2 weapon_rocketlauncher
+ 64:56 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 65:06 Item: 2 item_health
+ 65:07 Item: 2 ammo_shells
+ 65:15 Item: 2 weapon_rocketlauncher
+ 65:16 Item: 2 ammo_lightning
+ 65:25 Item: 2 ammo_rockets
+ 65:26 Item: 2 item_health
+ 65:34 Item: 2 weapon_rocketlauncher
+ 65:47 Item: 2 weapon_rocketlauncher
+ 65:53 Item: 2 weapon_lightning
+ 65:59 Item: 2 ammo_shells
+ 68:04 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 68:24 Item: 2 weapon_rocketlauncher
+ 68:27 Item: 2 item_health
+ 68:36 Item: 2 weapon_rocketlauncher
+ 68:48 Item: 2 weapon_lightning
+ 68:51 Item: 2 weapon_rocketlauncher
+ 68:55 Item: 2 item_health_small
+ 68:55 Item: 2 item_health_small
+ 68:55 Item: 2 item_health_small
+ 68:55 Item: 2 weapon_grenadelauncher
+ 69:19 Item: 2 weapon_rocketlauncher
+ 70:39 Item: 2 weapon_rocketlauncher
+ 70:42 Item: 2 item_health
+ 70:43 Item: 2 item_health
+ 71:04 Item: 2 item_health
+ 71:17 Item: 2 ammo_shells
+ 72:43 Item: 2 weapon_rocketlauncher
+ 72:45 Item: 2 ammo_shells
+ 72:52 Item: 2 item_health
+ 72:55 Item: 2 item_health_mega
+ 73:24 Item: 2 weapon_rocketlauncher
+ 74:07 Item: 2 weapon_rocketlauncher
+ 74:36 Item: 2 weapon_rocketlauncher
+ 74:53 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 75:06 Item: 2 weapon_lightning
+ 75:16 Item: 2 item_health
+ 75:17 Item: 2 item_health
+ 75:22 Item: 2 weapon_rocketlauncher
+ 75:31 Item: 2 weapon_rocketlauncher
+ 75:31 Item: 2 ammo_lightning
+ 75:40 Item: 2 ammo_rockets
+ 79:39 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 80:38 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 81:30 Item: 2 weapon_rocketlauncher
+ 81:37 Item: 2 weapon_rocketlauncher
+ 81:44 Item: 2 weapon_rocketlauncher
+ 82:28 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+ 86:37 Item: 2 item_armor_combat
+ 86:46 Item: 2 item_health
+ 87:50 Item: 2 weapon_rocketlauncher
+ 88:03 Item: 2 item_health
+ 88:25 Item: 2 weapon_rocketlauncher
+ 89:31 Item: 2 weapon_rocketlauncher
+ 89:34 Item: 2 item_health
+ 89:48 Item: 2 weapon_rocketlauncher
+ 89:57 Item: 2 weapon_rocketlauncher
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667693274\wolfcamversion\12.5
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 0
+  0:12 Item: 0 item_health_small
+  0:15 Item: 0 item_health_small
+  0:16 Item: 0 item_health_small
+  0:24 Item: 0 weapon_grenadelauncher
+  0:25 Item: 0 item_health_small
+  1:20 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  2:42 ShutdownGame:
+  2:42 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667693806\wolfcamversion\12.5
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 2
+  0:03 Item: 2 item_armor_jacket
+  2:05 ShutdownGame:
+  2:05 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667694267\wolfcamversion\12.5
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 2
+  0:01 Item: 2 item_armor_jacket
+  0:14 Item: 2 weapon_grenadelauncher
+  0:25 Item: 2 item_health_small
+  1:08 ShutdownGame:
+  1:08 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667694455\wolfcamversion\12.5
+  0:00 ClientConnect: 4
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 4 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 4
+  0:06 Item: 4 item_armor_combat
+  0:41 ShutdownGame:
+  0:41 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667694582\wolfcamversion\12.5
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 2
+  0:03 Item: 2 weapon_grenadelauncher
+  0:03 Item: 2 item_health_small
+  0:03 Item: 2 item_health_small
+  0:29 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:53 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  1:40 ShutdownGame:
+  1:40 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667694889\wolfcamversion\12.5
+  0:00 ClientConnect: 1
+  0:00 ClientUserinfoChanged: 1 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 1 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 1 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 1
+  0:19 Item: 1 weapon_rocketlauncher
+  0:40 Item: 1 item_health
+  0:46 Item: 1 weapon_rocketlauncher
+  0:48 Item: 1 ammo_rockets
+  1:00 ShutdownGame:
+  1:00 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\aerowalk\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667697996\wolfcamversion\12.5
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 0
+  0:08 ShutdownGame:
+  0:08 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\bot_minplayers\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667698062\wolfcamversion\12.5
+  0:00 ClientConnect: 0
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 0
+  0:04 Item: 0 weapon_rocketlauncher
+  0:20 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  1:16 ClientUserinfoChanged: 0 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  1:32 Item: 0 weapon_lightning
+  1:37 Item: 0 weapon_lightning
+  1:56 Item: 0 item_armor_combat
+  1:57 Item: 0 item_health
+  1:58 Item: 0 item_armor_jacket
+  2:22 Item: 0 weapon_rocketlauncher
+  2:24 Item: 0 item_health
+  2:40 Item: 0 item_health
+  2:50 Item: 0 item_health
+  3:07 Item: 0 item_health
+  3:19 Item: 0 item_armor_combat
+  3:44 Item: 0 weapon_lightning
+  3:51 Item: 0 weapon_lightning
+  4:01 Item: 0 item_health
+  4:23 Item: 0 weapon_rocketlauncher
+  4:27 Item: 0 item_health_small
+  4:27 Item: 0 item_health_small
+  4:28 Item: 0 item_health_small
+  4:28 Item: 0 item_health_small
+  4:36 Item: 0 weapon_rocketlauncher
+  5:10 Item: 0 weapon_rocketlauncher
+  5:15 Item: 0 item_health
+  5:41 ShutdownGame:
+  5:41 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \g_maxGameClients\0\g_blueTeam\Blue Team\g_redTeam\Red Team\sv_floodProtect\1\sv_maxPing\0\sv_minPing\0\sv_dlRate\100\sv_maxRate\0\sv_minRate\0\sv_maxclients\8\sv_hostname\noname\dmflags\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667698775\wolfcamversion\12.5
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 2
+  3:08 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  3:24 Item: 2 weapon_lightning
+  3:29 Item: 2 weapon_lightning
+  3:32 Item: 2 weapon_rocketlauncher
+  3:33 Item: 2 ammo_shells
+  3:33 Item: 2 ammo_lightning
+  3:55 Item: 2 ammo_rockets
+  3:57 Item: 2 item_health
+  3:58 Item: 2 item_armor_combat
+  4:18 Item: 2 weapon_shotgun
+  4:23 Item: 2 weapon_grenadelauncher
+  4:23 Item: 2 item_health_small
+  4:23 Item: 2 item_health_small
+  4:23 Item: 2 item_health_small
+  4:24 Item: 2 item_health_small
+  4:45 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  4:55 Item: 2 weapon_rocketlauncher
+  5:01 Item: 2 weapon_lightning
+  5:21 Item: 2 weapon_rocketlauncher
+  5:23 Item: 2 ammo_shells
+  5:23 Item: 2 ammo_bullets
+  5:32 Item: 2 ammo_shells
+  5:42 Item: 2 weapon_rocketlauncher
+  5:45 Item: 2 item_health
+  5:59 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  6:19 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\doom/bright\hmodel\doom/bright\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  6:58 Item: 2 weapon_rocketlauncher
+  7:03 Item: 2 weapon_lightning
+  7:11 Item: 2 weapon_rocketlauncher
+  7:20 Item: 2 weapon_rocketlauncher
+  7:22 ShutdownGame:
+  7:22 ------------------------------------------------------------
+  0:00 ------------------------------------------------------------
+  0:00 InitGame: \timelimit\0\fraglimit\0\dmflags\0\sv_hostname\noname\sv_maxclients\8\sv_minRate\0\sv_maxRate\0\sv_dlRate\100\sv_minPing\0\sv_maxPing\0\sv_floodProtect\1\g_redTeam\Red Team\g_blueTeam\Blue Team\g_maxGameClients\0\version\wolfcamql 12.5 linux-x86_64 Aug  2 2022\com_gamename\WolfcamqlGame\protocol\91\g_gametype\0\mapname\cpm22\sv_privateClients\0\sv_allowDownload\0\gamename\baseq3\g_needpass\0\g_obeliskRespawnDelay\10\g_enableDust\0\g_enableBreath\0\g_levelStartTime\1667701053\wolfcamversion\12.5
+  0:00 ClientConnect: 2
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientUserinfoChanged: 2 n\^wLOTZ^4Y*\t\0\model\bones/xray\hmodel\bones/xray\c1\7\c2\7\hc\100\w\0\l\0\tt\0\tl\0\su\1
+  0:00 ClientBegin: 2
+  0:04 Item: 2 weapon_rocketlauncher
+  0:07 Item: 2 weapon_lightning
+  0:09 Item: 2 weapon_rocketlauncher
+  0:17 Item: 2 item_armor_jacket
+  0:28 ShutdownGame:
+  0:28 ------------------------------------------------------------
