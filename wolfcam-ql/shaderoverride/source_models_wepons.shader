@@ -3,20 +3,9 @@ models/weapons/vulcan/vulcan
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons/vulcan/vulcan.tga
+		map	models/weapons/vulcan/vulcan.tga
 		rgbgen lightingdiffuse	
 	}
-	{
-        stage normalparallaxmap
-        map source/models/weapons/vulcan/vulcan_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons/vulcan/vulcan_spec.tga
-		specularreflectance 0.50
-        specularexponent 16
-    }
 }
 
 models/weapons/proxmine/proxmine3
@@ -24,20 +13,9 @@ models/weapons/proxmine/proxmine3
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons/proxmine/proxmine3.tga
+		map	models/weapons/proxmine/proxmine3.tga
 		rgbgen lightingdiffuse	
 	}
-	{
-        stage normalparallaxmap
-        map source/models/weapons/proxmine/proxmine3_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons/proxmine/proxmine3_spec.tga
-		specularreflectance 0.50
-        specularexponent 16
-    }
 }
 
 models/weapons/nailgun/nailgun
@@ -45,20 +23,9 @@ models/weapons/nailgun/nailgun
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons/nailgun/nailgun.tga
+		map	models/weapons/nailgun/nailgun.tga
 		rgbgen lightingdiffuse	
 	}
-	{
-        stage normalparallaxmap
-        map source/models/weapons/nailgun/nailgun_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons/nailgun/nailgun_spec.tga
-		specularreflectance 0.50
-        specularexponent 16
-    }
 }
 
 
@@ -67,20 +34,9 @@ models/weapons3/hmg/hmg
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons3/hmg/hmg.tga
+		map	models/weapons3/hmg/hmg.tga
 		rgbgen lightingdiffuse	
 	}
-	{
-        stage normalparallaxmap
-        map source/models/weapons3/hmg/hmg_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons3/hmg/hmg_spec.tga
-		specularreflectance 0.50
-        specularexponent 16
-    }
 }
 
 models/weapons3/hmg/f_hmg
@@ -89,7 +45,7 @@ models/weapons3/hmg/f_hmg
 	sort additive
 	cull disable
 	{
-		map	source/models/weapons3/hmg/f_hmg.tga
+		map	models/weapons3/hmg/f_hmg.tga
 		blendfunc add
 	}
 }
@@ -99,7 +55,7 @@ models/weapons2/bfg/bfg_e
 {	
 	nopicmip
 	{
-                map textures/effects/envmapbfg2.tga
+                map models/weapons2/bfg/envmapbfg2.tga
 				blendfunc gl_one gl_zero                   
                 tcmod turb 0 .5 0 .1
                 tcmod scale 1 1
@@ -107,7 +63,7 @@ models/weapons2/bfg/bfg_e
                 rgbgen identity             
         }	
         {
-                map textures/effects/envmapbfg2.tga
+                map models/weapons2/bfg/envmapbfg2.tga
 				blendfunc add                   
                 tcmod turb 0 .5 0 .1
                 tcmod scale 1 1
@@ -123,7 +79,7 @@ models/weapons2/bfg/f_bfg
 	sort additive
 	
         {
-		map source/models/weapons2/bfg/f_bfg.tga
+		map models/weapons2/bfg/f_bfg.tga
 		blendfunc gl_one gl_one
         }
 
@@ -146,7 +102,7 @@ models/weapons2/grapple/f_grapple
 	
 	sort additive
 	{
-		map source/models/weapons2/grapple/f_grapple.tga
+		map models/weapons2/grapple/f_grapple.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -155,24 +111,24 @@ models/weapons2/grapple/grapple
 {      
 	nopicmip
     {
-		map source/models/weapons2/grapple/grapple.tga
+		map models/weapons2/grapple/grapple.tga
         blendfunc gl_one gl_zero
 		rgbgen lightingdiffuse
 	} 
     {
-        map textures/sfx/specular.tga
+        map models/weapons2/grapple/specular.tga
         blendfunc add
         tcmod scroll .1 .1
         tcgen environment
         rgbgen lightingdiffuse
 	}  
     {
-		map source/models/weapons2/grapple/grapple.tga
+		map models/weapons2/grapple/grapple.tga
         blendfunc blend
 		rgbgen lightingdiffuse
 	}   
 	{
-		map source/models/weapons2/grapple/grapple_brightglow.tga
+		map models/weapons2/grapple/grapple_brightglow.tga
 		blendfunc add
 		rgbgen wave triangle 1 0.5 0.5 1
 	}      
@@ -183,7 +139,7 @@ models/weapons2/grapple/grapple_h
 	nopicmip
     
 	{
-        map source/models/weapons2/grapple/grapple_h.tga
+        map models/weapons2/grapple/grapple_h.tga
         alphafunc ge128
 		depthwrite
 		rgbgen lightingdiffuse
@@ -195,13 +151,13 @@ models/weapons2/grapple/grapple_j
 	nopicmip
     
     {
-        map source/models/weapons2/grapple/grapple_j.tga
+        map models/weapons2/grapple/grapple_j.tga
         blendfunc gl_one gl_zero
         tcmod scroll 0.5 0
         rgbgen identity
     }
     {
-        map textures/liquids/slimeteal.tga
+        map models/weapons2/grapple/slimeteal.tga
         blendfunc add
         tcmod scale .7 .7
         tcmod turb 0 .4 0 .3
@@ -209,7 +165,7 @@ models/weapons2/grapple/grapple_j
         rgbgen identity
     }
     {
-		map textures/effects/tinfx2c.tga
+		map models/weapons2/grapple/tinfx2c.tga
         tcgen environment
         blendfunc add              
         rgbgen lightingdiffuse
@@ -222,7 +178,7 @@ models/weapons2/grenadel/f_grenadel
 	sort additive
 	
 	{
-		map	source/models/weapons2/grenadel/f_grenadel.tga
+		map	models/weapons2/grenadel/f_grenadel.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -232,14 +188,13 @@ models/weapons2/grenadel/ring
 	nopicmip
 	
 	{
-		map source/models/weapons2/grenadel/ring.tga
+		map models/weapons2/grenadel/ring.tga
         }
 
         {
-                map textures/effects/envmapdim.tga
-		tcgen environment
-		blendfunc add
-                //rgbgen identity
+	        map models/weapons2/grenadel/envmapdim.tga
+			tcgen environment
+			blendfunc add
         }
 }
 
@@ -250,13 +205,13 @@ models/weapons2/lightning/ball
 	nopicmip
    deformvertexes autosprite
         {
-		map source/models/weapons2/lightning/ball.tga
+		map models/weapons2/lightning/ball.tga
 		blendfunc add
                 rgbgen wave triangle 1 2 0 7
                 tcmod rotate 360
 	}
         {
-		map source/models/weapons2/lightning/ball.tga
+		map models/weapons2/lightning/ball.tga
 		blendfunc add
                 rgbgen wave triangle 1 5 1 3
                 tcmod rotate -200
@@ -300,11 +255,11 @@ models/weapons2/lightning/f_lightning
 	sort additive
 	
 	{
-		map source/models/weapons2/lightning/f_lightning.tga
+		map models/weapons2/lightning/f_lightning.tga
 		blendfunc gl_one gl_one
 	}
 	{
-		map source/models/weapons2/lightning/f_lightning.tga
+		map models/weapons2/lightning/f_lightning.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -315,13 +270,13 @@ models/weapons2/lightning/trail
 {
 	nopicmip
 	{
-		map source/models/weapons2/lightning/trail.tga
+		map models/weapons2/lightning/trail.tga
 		tcmod scroll 3.1 1
                 rgbgen wave triangle 1 2 0 7
 		blendfunc add
 	}
         {
-		map source/models/weapons2/lightning/trail.tga
+		map models/weapons2/lightning/trail.tga
 		tcmod scroll -1.7 1
                 rgbgen wave triangle 1 1.1 0 5.1
 		blendfunc add
@@ -346,13 +301,13 @@ models/weapons2/lightning/trail2
 {
 	nopicmip
 	{
-		map source/models/weapons2/lightning/trail2.tga
+		map models/weapons2/lightning/trail2.tga
 		tcmod scroll 3.1 1
                 rgbgen wave triangle 1 2 0 7
 		blendfunc add
 	}
         {
-		map source/models/weapons2/lightning/trail2.tga
+		map models/weapons2/lightning/trail2.tga
 		tcmod scroll -1.7 1
                 rgbgen wave triangle 1 1.1 0 5.1
 		blendfunc add
@@ -365,7 +320,7 @@ models/weapons2/machinegun/f_machinegun
 	sort additive
 	
 	{
-		map	source/models/weapons2/machinegun/f_machinegun.tga
+		map	models/weapons2/machinegun/f_machinegun.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -376,7 +331,7 @@ models/weapons2/plasma/f_plasma
 	
 	sort additive
 	{
-		map source/models/weapons2/plasma/f_plasma.tga
+		map models/weapons2/plasma/f_plasma.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -386,7 +341,7 @@ models/weapons2/plasma/plasma_glass
 	nopicmip
 
 	{
-		map source/models/weapons2/none.tga
+		map models/weapons2/none.tga
 		blendfunc blend
 	}
 }
@@ -396,14 +351,14 @@ models/weapons2/plasma/plasma_glo
 	nopicmip
     
 	{
-		map source/models/weapons2/plasma/plasma_glo.tga
+		map models/weapons2/plasma/plasma_glo.tga
                 tcmod rotate 33
 				tcmod scale 2 2
                 tcmod scroll .7 1
                 rgbgen identity
 	}
 		{
-		map source/models/weapons2/plasma/plasma_glo.tga
+		map models/weapons2/plasma/plasma_glo.tga
                 tcmod rotate 33
 				tcmod scale 1.5 1.5
                 tcmod scroll 1.5 0.6
@@ -419,7 +374,7 @@ models/weapons2/railgun/f_railgun2
 	nopicmip
 
 	{
-		map	source/models/weapons2/railgun/f_railgun2.tga
+		map	models/weapons2/railgun/f_railgun2.tga
 		blendfunc gl_one gl_one
 		rgbgen entity
 	}
@@ -429,7 +384,7 @@ models/weapons2/railgun/railgun2
 {
 
 	{
-		map	source/models/weapons2/none.tga
+		map	models/weapons2/none.tga
 		blendfunc blend
 	}
 }
@@ -438,12 +393,12 @@ models/weapons2/railgun/railgun3
 {
 	nopicmip
 	{
-		map	source/models/weapons2/railgun/railgun3.tga
+		map	models/weapons2/railgun/railgun3.tga
 		rgbgen lightingdiffuse				
 	}
 
 	{
-		map	source/models/weapons2/railgun/railgun3.glow.tga
+		map	models/weapons2/railgun/railgun3.glow.tga
 		blendfunc gl_one gl_one
 		rgbgen entity	// identity
 	}
@@ -454,12 +409,12 @@ models/weapons2/railgun/railgun4
 {
 	nopicmip
 	{
-		map source/models/weapons2/railgun/railgun4.tga
+		map models/weapons2/railgun/railgun4.tga
 		tcmod scroll 0.05 1
 		rgbgen entity	// identity
 	}
 			{
-		map source/models/weapons2/railgun/rail_glo.tga
+		map models/weapons2/railgun/rail_glo.tga
 		blendfunc add
                 tcmod rotate 33
 				tcmod scale 1.5 1.5
@@ -467,7 +422,7 @@ models/weapons2/railgun/railgun4
                 rgbgen entity
 	}
 				{
-		map source/models/weapons2/railgun/rail_glo.tga
+		map models/weapons2/railgun/rail_glo.tga
 		blendfunc add
                 tcmod rotate 33
 				tcmod scale 1 1
@@ -482,7 +437,7 @@ models/weapons2/rocketl/f_rocketl
 	
 	sort additive
 	{
-		map source/models/weapons2/rocketl/f_rocketl.tga
+		map models/weapons2/rocketl/f_rocketl.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -494,7 +449,7 @@ models/weapons2/rocketl/rocketl14
 	
 	sort additive
 	{
-		map source/models/weapons2/rocketl/f_rocketl.tga
+		map models/weapons2/rocketl/f_rocketl.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -505,7 +460,7 @@ models/weapons2/shotgun/f_shotgun
 	sort additive
 	
 	{
-		map	source/models/weapons2/shotgun/f_shotgun.tga
+		map	models/weapons2/shotgun/f_shotgun.tga
 		blendfunc gl_one gl_one
 	}
 }
@@ -515,7 +470,7 @@ models/weapons2/shotgun/shotgun_laser
 	nopicmip
 	
 	{
-		map	source/models/weapons2/shotgun/shotgun_laser.tga
+		map	models/weapons2/shotgun/shotgun_laser.tga
 		blendfunc add
 	}
 }
@@ -546,20 +501,9 @@ models/weapons2/lightning/lightning2
 	cull disable
 	nopicmip
 	{
-		map source/models/weapons2/lightning/lightning2.tga
+		map models/weapons2/lightning/lightning2.tga
 		rgbgen lightingdiffuse	
 	}
-	{
-        stage normalparallaxmap
-        map source/models/weapons2/lightning/lightning2_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons2/lightning/lightning2_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }
 
 
@@ -567,41 +511,19 @@ models/weapons2/lightning/button
 {
 	nopicmip
         {
-		map source/models/weapons2/lightning/button.tga
+		map models/weapons2/lightning/button.tga
 		rgbgen lightingdiffuse
 		rgbgen wave sin 1 1 0 1		
 	}
-	{
-        stage normalparallaxmap
-        map source/models/weapons2/lightning/button_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons2/lightning/button_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }
 
 models/weapons2/lightning/glass
 {
 	nopicmip
     {
-		map source/models/weapons2/lightning/glass.tga
+		map models/weapons2/lightning/glass.tga
 		rgbgen lightingdiffuse
 	}
-	{
-        stage normalparallaxmap
-        map source/models/weapons2/lightning/glass_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons2/lightning/glass_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }
 
 models/weapons2/gauntlet/gauntlet2
@@ -609,20 +531,9 @@ models/weapons2/gauntlet/gauntlet2
 	cull disable
 	nopicmip
 	{
-		map source/models/weapons2/gauntlet/gauntlet2.tga
+		map models/weapons2/gauntlet/gauntlet2.tga
 		rgbgen lightingdiffuse
 	}	
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/gauntlet/gauntlet2_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	source/models/weapons2/gauntlet/gauntlet2_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }
 
 models/weapons2/rocketl/rocketl
@@ -630,21 +541,9 @@ models/weapons2/rocketl/rocketl
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons2/rocketl/rocketl.tga
+		map	models/weapons2/rocketl/rocketl.tga
 		rgbgen lightingdiffuse
 	}
-    {
-        stage normalparallaxmap
-        map source/models/weapons2/rocketl/rocketl_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons2/rocketl/rocketl_spec.tga
-		specularreflectance 0.65
-        specularexponent 32
-    }
-
 }
 
 models/weapons2/rocketl/rocketl2
@@ -652,20 +551,9 @@ models/weapons2/rocketl/rocketl2
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons2/rocketl/rocketl2.tga
+		map	models/weapons2/rocketl/rocketl2.tga
 		rgbgen lightingdiffuse
 	}
-    {
-        stage normalparallaxmap
-        map source/models/weapons2/rocketl/rocketl2_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons2/rocketl/rocketl2_spec.tga
-		specularreflectance 0.65
-        specularexponent 32
-    }
 
 }
 
@@ -674,20 +562,9 @@ models/weapons2/grenadel/grenadel
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons2/grenadel/grenadel.tga
+		map	models/weapons2/grenadel/grenadel.tga
 		rgbgen lightingdiffuse	
 	}
-    {
-        stage normalparallaxmap
-        map source/models/weapons2/grenadel/grenadel_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-        map source/models/weapons2/grenadel/grenadel_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }
 
 models/weapons2/machinegun/machinegun
@@ -695,20 +572,9 @@ models/weapons2/machinegun/machinegun
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons2/machinegun/machinegun.tga
+		map	models/weapons2/machinegun/machinegun.tga
 		rgbgen lightingdiffuse	
 	}
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/machinegun/machinegun_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	source/models/weapons2/machinegun/machinegun_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }
 
 models/weapons2/shotgun/shotgun
@@ -716,20 +582,9 @@ models/weapons2/shotgun/shotgun
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons2/shotgun/shotgun.tga
+		map	models/weapons2/shotgun/shotgun.tga
 		rgbgen lightingdiffuse	
 	}
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/shotgun/shotgun_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	source/models/weapons2/shotgun/shotgun_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }
 
 models/weapons2/railgun/railgun1
@@ -737,20 +592,9 @@ models/weapons2/railgun/railgun1
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons2/railgun/railgun1.tga
+		map	models/weapons2/railgun/railgun1.tga
 		rgbgen lightingdiffuse	
 	}
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/railgun/railgun1_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	source/models/weapons2/railgun/railgun1_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 	{
 	map models\weapons2\railgun/railgun5_glow.tga
 	blendfunc gl_one gl_one
@@ -761,67 +605,45 @@ models/weapons2/bfg/bfg_k
 {     
 	nopicmip
  
-        {
-                map textures/effects/envmapbfg.tga
-                blendfunc gl_one gl_zero
-                tcmod rotate 30
-                tcmod scroll 1 1
-                tcgen environment
-                rgbgen identity
+    {
+        map models/weapons2/bfg/envmapbfg2.tga
+        blendfunc gl_one gl_zero
+        tcmod rotate 30
+        tcmod scroll 1 1
+        tcgen environment
+        rgbgen identity
 	}  
-        {
-		map source/models/weapons2/bfg/bfg_k.tga
-                blendfunc blend
+    {
+		map models/weapons2/bfg/bfg_k.tga
+        blendfunc blend
 		rgbgen lightingdiffuse
-	}
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/bfg/bfg_k_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	source/models/weapons2/bfg/bfg_k_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }       
+	}    
 }
 
 models/weapons2/bfg/bfg
 {   
 	nopicmip
-		{
-                map textures/effects/envmapbfg2.tga
-				blendfunc gl_one gl_zero                   
-                tcmod turb 0 .5 0 .1
-                tcmod scale 3 3
-                tcmod scroll .2 -.2         
-                rgbgen identity             
-        }
-	        {
-                map textures/effects/envmapbfg2.tga
-				blendfunc add                   
-                tcmod turb 0 .5 0 .1
-                tcmod scale 3 3
-                tcmod scroll .3 .6         
-                rgbgen identity             
-        }	
-        {
-		map source/models/weapons2/bfg/bfg.tga
-                blendfunc blend
-		rgbgen lightingdiffuse
-	}
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/bfg/bfg_norm.tga
-		parallaxdepth 0.04
+	{
+        map models/weapons2/bfg/envmapbfg2.tga
+		blendfunc gl_one gl_zero                   
+        tcmod turb 0 .5 0 .1
+        tcmod scale 3 3
+        tcmod scroll .2 -.2         
+        rgbgen identity             
     }
     {
-        stage specularmap
-		map	source/models/weapons2/bfg/bfg_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }            
+        map models/weapons2/bfg/envmapbfg2.tga
+		blendfunc add                   
+        tcmod turb 0 .5 0 .1
+        tcmod scale 3 3
+        tcmod scroll .3 .6         
+        rgbgen identity             
+	}	
+    {
+		map models/weapons2/bfg/bfg.tga
+    	blendfunc blend
+		rgbgen lightingdiffuse
+	}           
 }
 
 models/weapons2/plasma/plasma
@@ -829,50 +651,28 @@ models/weapons2/plasma/plasma
 	//cull disable
 	nopicmip
 	{
-		map source/models/weapons2/plasma/plasma_glo.tga
-                tcmod rotate 33
-				tcmod scale 2 2
-                tcmod scroll .7 1
-                rgbgen identity
+		map models/weapons2/plasma/plasma_glo.tga
+        tcmod rotate 33
+		tcmod scale 2 2
+        tcmod scroll .7 1
+        rgbgen identity
 	}
 	{
-		map	source/models/weapons2/plasma/plasma.jpg
+		map	models/weapons2/plasma/plasma.jpg
 		blendfunc blend
 		rgbgen lightingdiffuse	
 	}
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/plasma/plasma_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	source/models/weapons2/plasma/plasma_spec.tga
-		specularreflectance 0.50
-        specularexponent 16
-    } 
 }
 
 models/weapons2/railgun/railgun3
 {
 	nopicmip
 	{
-		map source/models/weapons2/railgun/railgun3.tga
+		map models/weapons2/railgun/railgun3.tga
 		rgbgen lightingdiffuse				
 	}
-    {
-        stage normalparallaxmap
-		map source/models/weapons2/railgun/railgun3_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map source/models/weapons2/railgun/railgun3_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 	{
-		map source/models/weapons2/railgun/railgun3.glow.tga
+		map models/weapons2/railgun/railgun3.glow.tga
 		blendfunc add
 		rgbgen entity	// identity
 	}
@@ -883,18 +683,7 @@ models/weapons2/gauntlet/gauntlet1
 	cull disable
 	nopicmip
 	{
-		map	source/models/weapons2/gauntlet/gauntlet1.tga
+		map	models/weapons2/gauntlet/gauntlet1.tga
 		rgbgen lightingdiffuse	
 	}
-    {
-        stage normalparallaxmap
-		map	source/models/weapons2/gauntlet/gauntlet1_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	source/models/weapons2/gauntlet/gauntlet1_spec.tga
-		specularreflectance 0.5
-        specularexponent 8
-    }
 }

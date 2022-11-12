@@ -11577,6 +11577,13 @@ if (fx_gibs_style == 2) {
 
 
 fovi {
+
+red clip(red+0.2)
+green clip(green+0.2)
+blue clip(blue+0.2)  
+size 200 * ( 1 - lerp ) + 50 * rand
+light
+
 t1 cg_fov1
 t2 cg_fov2
 t3 cg_fov3
