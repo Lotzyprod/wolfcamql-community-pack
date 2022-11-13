@@ -405,38 +405,16 @@ models/powerups/armor/newredarmor
 		blendfunc blend
 		rgbgen lightingdiffuse
 	} 
-    {
-        stage normalparallaxmap
-		map	models/powerups/armor/newredarmor_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	models/powerups/armor/newredarmor_spec.tga
-		specularreflectance 0.6
-        specularexponent 32
-    }
          
 }
 
 models/powerups/armor/newyellowarmor
 {      
 	nopicmip
-     	{
+ 	{
 		map models/powerups/armor/newyellowarmor.tga
 		rgbgen lightingdiffuse
-		}   
-    {
-        stage normalparallaxmap
-		map	models/powerups/armor/newyellowarmor_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	models/powerups/armor/newyellowarmor_spec.tga
-		specularreflectance 0.6
-        specularexponent 32
-    }
+	}   
          
 }
 
@@ -446,18 +424,7 @@ models/powerups/armor/newgreenarmor
     {
 		map models/powerups/armor/newgreenarmor.tga
 		rgbgen lightingdiffuse
-	} 
-    {
-        stage normalparallaxmap
-		map	models/powerups/armor/newgreenarmor_norm.tga
-		parallaxdepth 0.04
-    }
-    {
-        stage specularmap
-		map	models/powerups/armor/newgreenarmor_spec.tga
-		specularreflectance 0.6
-        specularexponent 32
-    }		
+	} 	
 }
 
 models/powerups/armor/shard2new
@@ -477,30 +444,18 @@ models/powerups/armor/shard2new
 
 models/powerups/ammo/bfgammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/blue.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_bfg
 {
@@ -512,30 +467,18 @@ models/powerups/ammo/ammo_bfg
 }
 models/powerups/ammo/grenammo_new
 {
-   cull none
-       {
+  	cull none
+	{
 		map models/powerups/ammo/green.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
+		rgbgen lightingdiffuse
+	}
 
 }
 models/powerups/ammo/ammo_grenade
@@ -548,30 +491,20 @@ models/powerups/ammo/ammo_grenade
 }
 models/powerups/ammo/lighammo_new
 {
-   cull none
-        {
+	cull none
+	{
+	
+
 		map models/powerups/ammo/pale_yellow.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-        }
-        {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-        }
-		{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
+		rgbgen lightingdiffuse
+	}
 
 }
 models/powerups/ammo/ammo_lightning
@@ -584,30 +517,18 @@ models/powerups/ammo/ammo_lightning
 }
 models/powerups/ammo/machammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/yellow.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
+		rgbgen lightingdiffuse
+	}
 
 }
 models/powerups/ammo/ammo_machinegun
@@ -620,31 +541,18 @@ models/powerups/ammo/ammo_machinegun
 }
 models/powerups/ammo/plasammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/purple.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_plasma
 {
@@ -656,31 +564,18 @@ models/powerups/ammo/ammo_plasma
 }
 models/powerups/ammo/railammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/bright_green.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_railgun
 {
@@ -692,31 +587,18 @@ models/powerups/ammo/ammo_railgun
 }
 models/powerups/ammo/rockammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/red.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_rocket
 {
@@ -728,31 +610,18 @@ models/powerups/ammo/ammo_rocket
 }
 models/powerups/ammo/shotammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/orange.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_shotgun
 {
@@ -765,30 +634,18 @@ models/powerups/ammo/ammo_shotgun
 
 models/powerups/ammo/proxammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/purple.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
+		rgbgen lightingdiffuse
+	}
 
 }
 models/powerups/ammo/ammo_proxmine
@@ -802,31 +659,18 @@ models/powerups/ammo/ammo_proxmine
 
 models/powerups/ammo/packammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/white.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_pack
 {
@@ -839,31 +683,18 @@ models/powerups/ammo/ammo_pack
 
 models/powerups/ammo/chainammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/white.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_chaingun
 {
@@ -876,31 +707,18 @@ models/powerups/ammo/ammo_chaingun
 
 models/powerups/ammo/nailammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/white.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_nailgun
 {
@@ -913,31 +731,18 @@ models/powerups/ammo/ammo_nailgun
 
 models/powerups/ammo/hmgammo_new
 {
-   cull none
-       {
+	cull none
+	{
 		map models/powerups/ammo/yellow.tga
 		tcgen environment
 		blendfunc gl_one gl_zero
 		rgbgen identity
-       }
-       {
-	        map models/powerups/ammo/ammobox_new.tga
+	}
+	{
+		map models/powerups/ammo/ammobox_new.tga
 		blendfunc blend
-                rgbgen lightingdiffuse
-       }
-{
-            stage normalmap
-            map models/powerups/ammo/ammobox_new_n.tga
-            normalscale 2 2
-            parallaxdepth 0.05
-        }
-        {
-            stage specularmap
-            map models/powerups/ammo/ammobox_new_s.tga
-            specularreflectance 1
-            specularexponent 128
-        }
-
+		rgbgen lightingdiffuse
+	}
 }
 models/powerups/ammo/ammo_hmg
 {
